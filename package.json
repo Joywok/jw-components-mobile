@@ -1,4 +1,12 @@
 {
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpackStart": "webpack-dev-server --inline --hot --host 192.168.1.95",
+    "webpackBuild": "webpack --display-error-details",
+    "webpackWatch": "webpack --progress --colors --watch",
+    "start": "webpack-dev-server --inline --hot --host 192.168.1.95",
+    "build": "webpack -p"
+  },
   "_args": [
     [
       {
@@ -225,9 +233,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Joywok/JwComponents.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "version": "0.0.12"
 }
