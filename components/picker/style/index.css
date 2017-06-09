@@ -1,0 +1,151 @@
+.am-list.jw-picker .am-list-item .am-list-line .am-list-content {
+  color: #333;
+  font-size: 14px;
+}
+.am-list.jw-picker .am-list-item .am-list-line .am-list-extra {
+  color: #b0b0b0;
+  font-size: 14px;
+}
+.am-picker-popup-body .am-picker-popup-header {
+  background-position: inherit;
+}
+.am-picker-popup-body .am-picker-popup-header:after {
+  display: block;
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  height: 0;
+  right: auto;
+  top: 99%;
+  width: 200%;
+  border-bottom: 1px solid #ddd!important;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: scale(0.5, 0.5);
+  -ms-transform: scale(0.5, 0.5);
+  -o-transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.am-picker-popup-body .am-picker-popup-item {
+  color: #157efb;
+  font-size: 1.15942029rem;
+  padding: 18px 30px;
+}
+.am-picker-popup-body .am-picker {
+  color: #157efb;
+  font-size: 1.15942029rem;
+}
+.am-picker-popup-body .am-picker .am-picker-col-item {
+  color: #333;
+  font-size: 1.15942029rem;
+}
+.am-picker-popup-body .am-picker .am-picker-col {
+  display: block;
+  position: relative;
+  height: 240px;
+  overflow: hidden;
+  width: 100%;
+}
+.am-picker-popup-body .am-picker .am-picker-col .am-picker-col-content {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  padding: 102px 0;
+}
+.am-picker-popup-body .am-picker .am-picker-col .am-picker-col-content .am-picker-col-item {
+  touch-action: manipulation;
+  text-align: center;
+  font-size: 1.01449275rem;
+  height: 34px;
+  line-height: 34px;
+  color: #000;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.am-picker-popup-body .am-picker .am-picker-col .am-picker-col-content .am-picker-col-item.am-picker-col-selected {
+  font-size: 16px;
+}
+.am-picker-popup-body .am-picker .am-picker-col .am-picker-col-content .am-picker-col-item-selected {
+  font-size: 16px!important;
+  transition: 0.5s;
+}
+.am-picker-popup-body .am-picker .am-picker-col .am-picker-col-mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  margin: 0 auto;
+  width: 100%;
+  z-index: 3;
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.6)), -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.6));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.6)), linear-gradient(to top, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.6));
+  background-position: top, bottom;
+  background-size: 100% 102px;
+  background-repeat: no-repeat;
+}
+.am-picker-popup-body .am-picker .am-picker-col .am-picker-col-indicator {
+  box-sizing: border-box;
+  width: 100%;
+  height: 34px;
+  position: absolute;
+  left: 0;
+  top: 102px;
+  z-index: 3;
+  border-top: initial;
+  border-bottom: initial;
+}
+.am-picker-popup-body .am-picker .am-picker-col .am-picker-col-indicator:after {
+  display: block;
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  right: auto;
+  top: 34px;
+  width: 200%;
+  border-bottom: 1px solid #ddd;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: scale(0.5, 0.5);
+  -ms-transform: scale(0.5, 0.5);
+  -o-transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.am-picker-popup-body .am-picker .am-picker-col .am-picker-col-indicator:before {
+  display: block;
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  right: auto;
+  top: 0px;
+  width: 200%;
+  border-top: 1px solid #ddd;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: scale(0.5, 0.5);
+  -ms-transform: scale(0.5, 0.5);
+  -o-transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}

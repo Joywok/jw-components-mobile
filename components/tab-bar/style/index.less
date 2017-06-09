@@ -1,0 +1,112 @@
+
+@import  "../../style/themes/default";
+
+
+    .am-tab-bar {
+        .am-tab-bar-bar .am-tab-bar-tab-icon .tab-badge:last-child,
+        .am-tab-bar-bar .am-tab-bar-tab-icon .tab-dot:last-child {
+            margin-top: 0;
+            left: 2px;
+        }
+        .am-tab-bar-bar .am-tab-bar-tab-icon .tab-badge:last-child{
+        	.am-badge-text{
+        	   margin-top:(27rem/@fontSize);
+        	   font-size:14px;
+        	   left:(75rem/@fontSize);
+        	   border-radius:50%;
+        	   width: (30rem/@fontSize);
+			   height: (30rem/@fontSize);
+			   padding: (15rem/@fontSize);
+			   min-width:(30rem/@fontSize);
+			   line-height: (30rem/@fontSize);
+        	}
+        }
+
+        .am-badge-text {
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            position: absolute;
+            top: -12px;
+            height: 18px;
+            line-height: 18px;
+            min-width: 18px;
+            color: #fff;
+            background-color: #ff5b05;
+            white-space: nowrap;
+            -webkit-transform: translateX(-45%);
+            transform: translateX(-45%);
+            -webkit-transform-origin: -10% center;
+            transform-origin: -10% center;
+            z-index: 10;
+        }
+        .am-tab-bar-tab{
+        	.am-tab-bar-tab-icon{
+	        	.am-tab-bar-tab-badge.tab-dot.am-badge:last-child{
+	        		.am-badge-dot{
+	        		   left:(75rem/@fontSize);
+	        	   }
+	        	}  
+        	}
+        }
+        .am-tab-bar-content {
+            .am-tab-bar-tabpane {
+                overflow: auto;
+                font-size: 16px;
+            }
+        }
+        .am-tab-bar-bar {
+            border-top:0;
+            height: 49px;
+            .am-tab-bar-tab {
+                cursor: pointer;
+                .am-tab-bar-tab-icon {
+                    margin: (15rem/@fontSize) 0;
+                    div {
+                        width: 25px;
+                        height: 25px;
+                    }
+                    .am-tab-bar-image {
+                        width: 25px;
+                        height: 25px;
+                        vertical-align: middle;
+                    }
+                    .am-tab-bar-tab-badge {
+                        .am-tab-bar-tab-image {
+                            width: 25px!important;
+                            height: 25px!important;
+                        }
+                    }
+                }
+                .am-tab-bar-tab-title {
+                    font-size: @tabbar-font-size;
+                    color: @tabbar-font-color;
+                    margin: (15rem/@fontSize)  0;
+                }
+            }
+        }
+        .am-tab-bar-bar:after{
+            display: block;
+            position: absolute;
+            content: "";
+            left: 0;
+            bottom: 0;
+            height:0;
+            right: auto;
+            top: 0;
+            width: 200%;
+            border-bottom: 1px solid #d4d4d4!important;
+            -webkit-transform-origin: 0 0;
+            -moz-transform-origin: 0 0;
+            -ms-transform-origin: 0 0;
+            -o-transform-origin: 0 0;
+            transform-origin: 0 0;
+            -webkit-transform: scale(0.5, 0.5);
+            -ms-transform: scale(0.5, 0.5);
+            -o-transform: scale(0.5, 0.5);
+            transform: scale(0.5, 0.5);
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+    }

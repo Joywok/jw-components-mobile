@@ -1,0 +1,145 @@
+@import  "../../style/themes/default";
+
+//actionsheet
+.am-action-sheet {
+    .am-action-sheet-content {
+        .am-action-sheet-body {
+            .am-action-sheet-message {
+                color: @actionsheet-title-color;
+                font-size: @actionsheet-title-font-size;
+                height: @actionsheet-height;
+                line-height: @actionsheet-line-height;
+                margin: inherit;
+                padding: 0 15px;
+            }
+           .am-action-sheet-title{
+           		font-size:16px;
+           	    margin:(45rem/@fontSize) auto;
+           }
+            .am-action-sheet-button-list {
+                .am-action-sheet-button-list-item {
+                    font-size: @actionsheet-font-size;
+                    color: @actionsheet-default-color;
+                    height: @actionsheet-height;
+                    line-height: @actionsheet-line-height;
+                    border-top:none;
+                }
+                 .am-action-sheet-button-list-item:after{
+                     display:block;
+                    content: '';
+                    height: 200%;
+                    width: 200%;
+                    position: absolute;
+                    top:0;
+                    border-top: 1px solid #dddddd;
+                    -webkit-transform-origin: 0 0;
+                    -moz-transform-origin: 0 0;
+                    -ms-transform-origin: 0 0;
+                    -o-transform-origin: 0 0;
+                    transform-origin: 0 0;
+                    -webkit-transform: scale(0.5, 0.5);
+                    -ms-transform: scale(0.5, 0.5);
+                    -o-transform: scale(0.5, 0.5);
+                    transform: scale(0.5, 0.5);
+                    -webkit-box-sizing: border-box;
+                    -moz-box-sizing: border-box;
+                    box-sizing: border-box;
+                }
+
+                .am-action-sheet-button-list-item.am-action-sheet-destructive-button {
+                    color: @actionsheet-destructive-color !important;
+
+                }
+                .am-action-sheet-button-list-item.am-action-sheet-cancel-button{
+                    .am-action-sheet-cancel-button-mask{
+                      border-top:none;
+                      height:(15rem/@fontSize);
+                    }
+                    .am-action-sheet-cancel-button-mask:after{
+                        display:none;
+                        content: '';
+                        height: 200%;
+                        width: 200%;
+                        position: absolute;
+                        top:0;
+                        border-top: 1px solid #dddddd;
+                        -webkit-transform-origin: 0 0;
+                        -moz-transform-origin: 0 0;
+                        -ms-transform-origin: 0 0;
+                        -o-transform-origin: 0 0;
+                        transform-origin: 0 0;
+                        -webkit-transform: scale(0.5, 0.5);
+                        -ms-transform: scale(0.5, 0.5);
+                        -o-transform: scale(0.5, 0.5);
+                        transform: scale(0.5, 0.5);
+                        -webkit-box-sizing: border-box;
+                        -moz-box-sizing: border-box;
+                        box-sizing: border-box;
+                    }
+                }
+                .am-action-sheet-button-list-item.am-action-sheet-cancel-button:after{
+                    display:none;
+                    content: '';
+                    height: 200%;
+                    width: 200%;
+                    position: absolute;
+                    top:-18px;
+                    border-top: 1px solid #dddddd;
+                    -webkit-transform-origin: 0 0;
+                    -moz-transform-origin: 0 0;
+                    -ms-transform-origin: 0 0;
+                    -o-transform-origin: 0 0;
+                    transform-origin: 0 0;
+                    -webkit-transform: scale(0.5, 0.5);
+                    -ms-transform: scale(0.5, 0.5);
+                    -o-transform: scale(0.5, 0.5);
+                    transform: scale(0.5, 0.5);
+                    -webkit-box-sizing: border-box;
+                    -moz-box-sizing: border-box;
+                    box-sizing: border-box;
+                }
+            }
+        }
+    }
+}
+
+.am-action-sheet.hasIcons {
+    .am-action-sheet-content {
+        .am-action-sheet-body {
+            .am-action-sheet-message {
+                color: @actionsheet-title-color;
+                text-align: left;
+                font-size: @actionsheet-title-font-size;
+            }
+            .am-action-sheet-button-list {
+                .am-action-sheet-button-list-item {
+                    .item {
+                        height:@actionsheet-height;
+                        line-height:@actionsheet-line-height;
+                        padding-left: 15px;
+                        text-align: left;
+                        font-size: @actionsheet-font-size;
+                        .item-icon {
+                            margin-right: 10px;
+                            font-size: 20px;
+                            i{
+                              vertical-align: -(7rem/@fontSize);
+                              font-size:(72rem/@fontSize);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.am-action-sheet-wrap {
+    display: flex;
+    .am-action-sheet.middle {
+        margin: auto;
+        position: initial;
+        left: initial;
+        bottom: initial;
+    }
+}

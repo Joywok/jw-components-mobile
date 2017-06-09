@@ -1,0 +1,68 @@
+@import  "../../style/themes/default";
+
+    .am-card.am-card-full {
+        border: none!important;
+        padding: 0!important;
+        .am-card-body {
+            padding: 0!important;
+            border: none!important;
+            font-size: (42rem/@fontSize);
+            .cardwrap.card1,
+            .cardwrap.card2,
+            .cardwrap.card3 {
+                box-sizing: content-box;
+                background: @card-bg;
+                position: relative;
+                overflow: hidden;
+                padding: (60rem/@fontSize) 8%;
+                margin: 0 auto;
+                color: @light;
+                .avatar {
+                    float: left;
+                    margin-right: (45rem/@fontSize);
+                    overflow: hidden;
+                    img {
+                        max-width: 100%;
+                        max-height: 100%;
+                    }
+                }
+                .avatar.avatar-1 {
+                    width: @card-default-avatar-width;
+                    height: @card-default-avatar-height;
+                    border-radius: @card-default-avatar-height;
+                }
+                .avatar.avatar-2 {
+                    width: @card-lg-avatar-height;
+                    height: @card-lg-avatar-height;
+                    border-radius: @card-lg-avatar-height;
+                }
+                .info {
+                    text-align: left;
+                    .info-1,
+                    .info-2 {
+                        margin-top: (24rem/@fontSize);
+                    }
+                }
+                .cont{
+                    text-align:left;
+                    margin-top:(45rem/@fontSize);
+                }
+            }
+            .cardwrap.card2 {
+                background: @card-default-bg!important;
+                color: @card-font-color;
+            }
+            .cardwrap.card3 {
+                background: @card-bg;
+                color: @card-default-font-color;
+                .avatar {
+                    float: none;
+                    margin: 0 auto;
+                }
+                .card-name {
+                    margin-top: (36rem/@fontSize);
+                    text-align: center;
+                }
+            }
+        }
+    }

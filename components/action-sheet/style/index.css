@@ -1,0 +1,118 @@
+.am-action-sheet .am-action-sheet-content .am-action-sheet-body .am-action-sheet-message {
+  color: #777;
+  font-size: 1.30434783rem;
+  height: 3.98550725rem;
+  line-height: 3.98550725rem;
+  margin: inherit;
+  padding: 0 15px;
+}
+.am-action-sheet .am-action-sheet-content .am-action-sheet-body .am-action-sheet-title {
+  font-size: 16px;
+  margin: 1.08695652rem auto;
+}
+.am-action-sheet .am-action-sheet-content .am-action-sheet-body .am-action-sheet-button-list .am-action-sheet-button-list-item {
+  font-size: 1.30434783rem;
+  color: #333;
+  height: 3.98550725rem;
+  line-height: 3.98550725rem;
+  border-top: none;
+}
+.am-action-sheet .am-action-sheet-content .am-action-sheet-body .am-action-sheet-button-list .am-action-sheet-button-list-item:after {
+  display: block;
+  content: '';
+  height: 200%;
+  width: 200%;
+  position: absolute;
+  top: 0;
+  border-top: 1px solid #dddddd;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: scale(0.5, 0.5);
+  -ms-transform: scale(0.5, 0.5);
+  -o-transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.am-action-sheet .am-action-sheet-content .am-action-sheet-body .am-action-sheet-button-list .am-action-sheet-button-list-item.am-action-sheet-destructive-button {
+  color: #ff3b2f !important;
+}
+.am-action-sheet .am-action-sheet-content .am-action-sheet-body .am-action-sheet-button-list .am-action-sheet-button-list-item.am-action-sheet-cancel-button .am-action-sheet-cancel-button-mask {
+  border-top: none;
+  height: 0.36231884rem;
+}
+.am-action-sheet .am-action-sheet-content .am-action-sheet-body .am-action-sheet-button-list .am-action-sheet-button-list-item.am-action-sheet-cancel-button .am-action-sheet-cancel-button-mask:after {
+  display: none;
+  content: '';
+  height: 200%;
+  width: 200%;
+  position: absolute;
+  top: 0;
+  border-top: 1px solid #dddddd;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: scale(0.5, 0.5);
+  -ms-transform: scale(0.5, 0.5);
+  -o-transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.am-action-sheet .am-action-sheet-content .am-action-sheet-body .am-action-sheet-button-list .am-action-sheet-button-list-item.am-action-sheet-cancel-button:after {
+  display: none;
+  content: '';
+  height: 200%;
+  width: 200%;
+  position: absolute;
+  top: -18px;
+  border-top: 1px solid #dddddd;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: scale(0.5, 0.5);
+  -ms-transform: scale(0.5, 0.5);
+  -o-transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.am-action-sheet.hasIcons .am-action-sheet-content .am-action-sheet-body .am-action-sheet-message {
+  color: #777;
+  text-align: left;
+  font-size: 1.30434783rem;
+}
+.am-action-sheet.hasIcons .am-action-sheet-content .am-action-sheet-body .am-action-sheet-button-list .am-action-sheet-button-list-item .item {
+  height: 3.98550725rem;
+  line-height: 3.98550725rem;
+  padding-left: 15px;
+  text-align: left;
+  font-size: 1.30434783rem;
+}
+.am-action-sheet.hasIcons .am-action-sheet-content .am-action-sheet-body .am-action-sheet-button-list .am-action-sheet-button-list-item .item .item-icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+.am-action-sheet.hasIcons .am-action-sheet-content .am-action-sheet-body .am-action-sheet-button-list .am-action-sheet-button-list-item .item .item-icon i {
+  vertical-align: -0.16908213rem;
+  font-size: 1.73913043rem;
+}
+.am-action-sheet-wrap {
+  display: flex;
+}
+.am-action-sheet-wrap .am-action-sheet.middle {
+  margin: auto;
+  position: initial;
+  left: initial;
+  bottom: initial;
+}

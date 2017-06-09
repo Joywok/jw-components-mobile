@@ -1,0 +1,22 @@
+
+@import  "../../style/themes/default";
+
+.am-segment.jw-segment {
+    border-radius:@segment-border-radius!important;
+    min-height: inherit!important;
+    .am-segment-item {
+        font-size: @segment-font-size;
+        line-height: inherit;
+        border: 1px solid #108ee9;
+        padding: (18rem/@fontSize) 0;
+        border-right: 0;
+    }
+    .am-segment-item:first-child {
+        border-left-width: 1px;
+        border-radius: @segment-border-radius 0 0 @segment-border-radius;
+    }
+    .am-segment-item:last-child {
+        border-right: 1px solid;
+        border-radius: 0 @segment-border-radius  @segment-border-radius 0;
+    }
+}

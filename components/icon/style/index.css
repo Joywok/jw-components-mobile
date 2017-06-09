@@ -1,0 +1,202 @@
+.icon {
+  display: inline-block;
+  background: url('https://open.joywok.com/jma-site/Jma-Framework/mobilecsscomponents/build/images/icons.png');
+  background-size: 200px;
+  vertical-align: middle;
+}
+.icon-item-show .icon-item-show-val {
+  margin-left: 5px;
+  font-size: 16px;
+}
+.icon-item-show .icon {
+  vertical-align: sub;
+}
+.icon-chart {
+  width: 1.44927536rem;
+  height: 1.44927536rem;
+  background-position: 0 0;
+}
+.icon-chart.active,
+.icon-chart:hover {
+  background-position: -1.44927536rem 0;
+}
+.icon-like {
+  width: 1.30434783rem;
+  height: 1.30434783rem;
+  background-position: 0 -1.52173913rem;
+}
+.icon-like.active,
+.icon-like:hover {
+  background-position: -1.44927536rem -1.52173913rem;
+}
+.icon-dept {
+  width: 1.44927536rem;
+  height: 1.44927536rem;
+  background-position: 0 -2.89855072rem;
+}
+.icon-dept.active,
+.icon-dept:hover {
+  background-position: -1.95652174rem -120rem;
+}
+.icon-close {
+  width: 1.15942029rem;
+  height: 1.15942029rem;
+  background-position: 0 -4.34782609rem;
+}
+.icon-close.active,
+.icon-close:hover {
+  background-position: -1.44927536rem -4.34782609rem;
+}
+.icon-filter {
+  width: 1.30434783rem;
+  height: 1.37681159rem;
+  background-position: 0 -5.79710145rem;
+}
+.icon-filter.active,
+.icon-filter:hover {
+  background-position: -1.44927536rem -5.79710145rem;
+}
+.icon-pass {
+  width: 1.37681159rem;
+  height: 1.37681159rem;
+  background-position: 0 -7.24637681rem;
+}
+.icon-pass.active,
+.icon-pass:hover {
+  background-position: -1.44927536rem -7.24637681rem;
+}
+.icon-no-pass {
+  width: 1.37681159rem;
+  height: 1.37681159rem;
+  background-position: 0 -8.69565217rem;
+}
+.icon-no-pass.active,
+.icon-no-pass:hover {
+  background-position: -1.44927536rem -8.69565217rem;
+}
+.icon-as {
+  width: 1.44927536rem;
+  height: 1.15942029rem;
+  background-position: 0 -10.14492754rem;
+}
+.icon-as.active,
+.icon-as:hover {
+  background-position: -1.44927536rem -10.14492754rem;
+}
+.icon-foward {
+  width: 1.23188406rem;
+  height: 1.37681159rem;
+  background-position: 0 -11.5942029rem;
+}
+.icon-foward.active,
+.icon-foward:hover {
+  background-position: -1.44927536rem -1.44927536rem;
+}
+.icon-people-talk {
+  width: 1.73913043rem;
+  height: 1.23188406rem;
+  background-position: 0 -180px;
+}
+.icon-people-talk.active,
+.icon-people-talk:hover {
+  background-position: -1.88405797rem -13.04347826rem;
+}
+.icon-add {
+  width: 1.30434783rem;
+  height: 1.30434783rem;
+  background-position: 0 -14.49275362rem;
+}
+.icon-add.active,
+.icon-add:hover {
+  background-position: -1.44927536rem -14.49275362rem;
+}
+.icon-less {
+  width: 1.44927536rem;
+  height: 0.14492754rem;
+  background-position: 0 -15.94202899rem;
+}
+.icon-less.active,
+.icon-less:hover {
+  background-position: -1.44927536rem -15.94202899rem;
+}
+.icon-application {
+  width: 1.37681159rem;
+  height: 1.37681159rem;
+  background-position: 0 -16.37681159rem;
+}
+.icon-application.active,
+.icon-application:hover {
+  background-position: -1.44927536rem -16.37681159rem;
+}
+.icon-file {
+  width: 1.5942029rem;
+  height: 1.30434783rem;
+  background-position: 0 -17.89855072rem;
+}
+.icon-file.active,
+.icon-file:hover {
+  background-position: -1.88405797rem -17.89855072rem;
+}
+.icon-address {
+  width: 1.52173913rem;
+  height: 1.52173913rem;
+  background-position: 0 -19.27536232rem;
+}
+.icon-address.active,
+.icon-address:hover {
+  background-position: -1.88405797rem -19.27536232rem;
+}
+.icon-good {
+  width: 1.44927536rem;
+  height: 1.44927536rem;
+  background-position: 0 -21.23188406rem;
+}
+.icon-good.active,
+.icon-good:hover {
+  background-position: -1.44927536rem -21.23188406rem;
+}
+.icon-setting {
+  width: 1.37681159rem;
+  height: 1.37681159rem;
+  background-position: 0 -22.68115942rem;
+}
+.icon-setting.active,
+.icon-setting:hover {
+  background-position: -1.44927536rem -22.68115942rem;
+}
+.icon-search {
+  width: 1.37681159rem;
+  height: 1.37681159rem;
+  background-position: -3.84057971rem 0;
+}
+.icon-search.active,
+.icon-search:hover {
+  background-position: -5.28985507rem 0;
+}
+.icon-msg {
+  width: 1.66666667rem;
+  height: 1.37681159rem;
+  background-position: -3.4057971rem -1.44927536rem;
+}
+.icon-msg.active,
+.icon-msg:hover {
+  background-position: -5.28985507rem -1.44927536rem;
+}
+.icon-help {
+  width: 1.37681159rem;
+  height: 1.37681159rem;
+  background-position: -3.84057971rem -2.89855072rem;
+}
+.icon-help.active,
+.icon-help:hover {
+  background-position: -5.28985507rem -2.89855072rem;
+}
+.icon-exit {
+  width: 1.37681159rem;
+  height: 1.37681159rem;
+  background-position: -3.84057971rem -13.04347826rem;
+}
+.icon-exit.active,
+.icon-exit:hover {
+  background-position: -5.28985507rem -13.04347826rem;
+}

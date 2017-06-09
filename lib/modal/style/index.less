@@ -1,0 +1,178 @@
+
+@import  "../../style/themes/default";
+
+.am-modal-wrap {
+    .am-modal.am-modal-transparent {
+        width:75%!important;
+        .am-modal-content {
+            border-radius: @modal-content-radius;
+        }
+    }
+    .am-modal.am-modal-android{
+        .am-modal-content{
+             .am-modal-header {
+                margin-bottom: 20px;
+                padding: 0;
+                .am-modal-title {
+                    font-size: @modal-title-font-size;
+                    line-height: 1;
+                    color: @modal-body-title-font-color;
+                    text-align: center;
+                    img {
+                        border-style: none;
+                        width: @modal-body-img-width;
+                        height: @modal-body-img-height;
+                        border-radius: @modal-body-img-width;
+                    }
+                    .title {
+                        font-size: @modal-default-font-size-lg;
+                        color: @modal-body-title-font-color;
+                    }
+                }
+            }
+            .am-modal-body {
+                color: @modal-body-btn-font-color;
+                font-size: @modal-body-content-font-size;
+                text-align:center;
+                .content {
+                    line-height: @modal-body-content-line-height;
+                    font-size: @modal-body-content-font-size;
+                }
+                img {
+                    border-style: none;
+                    width: @modal-body-img-width;
+                    height: @modal-body-img-height;
+                    border-radius: @modal-body-img-width;
+                }
+                .title {
+                    font-size: @modal-default-font-size-lg;
+                    color: @modal-body-title-font-color;
+                    margin: @modal-margin;
+                }
+            }
+            .am-modal-footer {
+                padding-bottom: inherit;
+                border-top:1px solid #ccc;
+                text-align:center;
+                .am-modal-button-group-h {
+                    padding:initial;
+                    .am-modal-button {
+                        color: @modal-body-btn-font-color;
+                        font-size: @modal-btn-fontSize;
+                        height: @modal-btn-height;
+                        line-height: @modal-btn-height;
+                        -webkit-box-flex: 1;
+                        -ms-flex: 1;
+                        flex: 1;
+                        box-sizing: border-box;
+                        text-align: center;
+                        text-decoration: none;
+                        outline: none;
+                        margin-left:initial;
+                    }
+                    .am-modal-button:first-child {
+                        border-right: 1PX solid #ccc;
+                    }
+                }
+                .am-modal-button-group-v {
+                    padding:initial;
+                    .am-modal-button {
+                        box-sizing: border-box;
+                        text-align: center;
+                        text-decoration: none;
+                        outline: none;
+                        color: @modal-btn-color;
+                        font-size: @modal-btn-fontSize;
+                        height: @modal-btn-height;
+                        line-height: @modal-btn-height;
+                        width: 100%;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        display: block;
+                        margin-left:initial;
+                    }
+                }
+            }
+        }
+
+    }
+    .am-modal {
+        .am-modal-content {
+            padding-top: 30px;
+            .am-modal-close {
+                cursor: pointer;
+                right: @modal-close-position-right;
+                left: inherit;
+                font-size: @modal-close-font-size;
+                top: 10px;
+                .am-modal-close-x {
+                    background: none!important;
+                }
+                .am-modal-close-x:after {
+                    content: '\D7';
+                    font-size: 24px;
+                    color: #999;
+                    font-weight: 700;
+                }
+            }
+            .am-modal-header {
+                margin-bottom: 20px;
+                padding: 0;
+                .am-modal-title {
+                    font-size: @modal-default-font-size-lg;
+                    line-height: 1;
+                    color: @modal-body-title-font-color;
+                    text-align: center;
+                    img {
+                        border-style: none;
+                        width: @modal-body-img-width;
+                        height: @modal-body-img-height;
+                        border-radius: @modal-body-img-width;
+                    }
+                    .title {
+                        font-size: @modal-default-font-size-lg;
+                        color: @modal-body-title-font-color;
+                    }
+                }
+            }
+            .am-modal-body {
+                color: @modal-body-btn-font-color;
+                font-size: @modal-btn-fontSize;
+                .content {
+                    line-height: 20px;
+                    font-size: @modal-btn-fontSize;
+                }
+                img {
+                    border-style: none;
+                    width: @modal-body-img-width;
+                    height: @modal-body-img-height;
+                    border-radius: @modal-body-img-width;
+                }
+                .title {
+                    font-size: @modal-default-font-size-lg;
+                    color: @modal-body-title-font-color;
+                    margin: 10px 0;
+                }
+            }
+            .am-modal-footer {
+                .am-modal-button-group-h {
+                    .am-modal-button {
+                        color: @modal-body-btn-font-color;
+                        font-size: @modal-btn-fontSize;
+                        height: @modal-btn-height;
+                        line-height: @modal-btn-line-height;
+                    }
+                }
+                .am-modal-button-group-v {
+                    .am-modal-button {
+                        color: @modal-body-btn-font-color;
+                        font-size: @modal-btn-fontSize;
+                        height: @modal-btn-height;
+                        line-height: @modal-btn-line-height;
+                    }
+                }
+            }
+        }
+    }
+}

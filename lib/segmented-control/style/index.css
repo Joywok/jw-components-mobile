@@ -1,0 +1,19 @@
+.am-segment.jw-segment {
+  border-radius: 0.28985507rem !important;
+  min-height: inherit!important;
+}
+.am-segment.jw-segment .am-segment-item {
+  font-size: 1.01449275rem;
+  line-height: inherit;
+  border: 1px solid #108ee9;
+  padding: 0.43478261rem 0;
+  border-right: 0;
+}
+.am-segment.jw-segment .am-segment-item:first-child {
+  border-left-width: 1px;
+  border-radius: 0.28985507rem 0 0 0.28985507rem;
+}
+.am-segment.jw-segment .am-segment-item:last-child {
+  border-right: 1px solid;
+  border-radius: 0 0.28985507rem 0.28985507rem 0;
+}
