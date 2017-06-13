@@ -212,7 +212,7 @@
   },
   "homepage": "https://github.com/Joywok/JwComponents#readme",
   "license": "ISC",
-  "main": "dist/jw-components-mobile.js",
+  "main": "lib/index.js",
   "maintainers": [
     {
       "name": "wangmj",
@@ -229,5 +229,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "0.0.12"
+  "version": "0.0.15"
 }

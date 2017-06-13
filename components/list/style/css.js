@@ -1,1 +1,3 @@
-css.js
+'use strict';
+
+require('./index.css');
