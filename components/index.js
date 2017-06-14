@@ -15,7 +15,7 @@ export {default as InputItem } from './input-item/index';
 export {default as Modal } from './modal/index';
 export {default as DatePicker } from './date-picker/index';
 export {default as Card } from './card/index';
-
+export {default as Progress } from './progress/index';
 
 
 
