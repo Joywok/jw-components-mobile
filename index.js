@@ -15,6 +15,7 @@ export {default as InputItem } from './lib/input-item/index';
 export {default as Modal } from './lib/modal/index';
 export {default as DatePicker } from './lib/date-picker/index';
 export {default as Card } from './lib/card/index';
+export {default as Carousel } from './lib/carousel/index';
 
 
 
