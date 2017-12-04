@@ -1,5 +1,5 @@
-
 @import  "../../style/themes/default";
+@fz:41.4;
 
 .am-modal-wrap {
     .am-modal.am-modal-transparent {
@@ -175,4 +175,180 @@
             }
         }
     }
+}
+
+//memoDialog(备注弹框)样式
+.jw-dialog{
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:22222;
+	overflow: hidden;
+
+// 遮罩层样式
+	.jw-dialog-mark{
+		position: absolute;
+    top:0;
+		right:0;
+		bottom:0;
+		left:0;
+    background: #000000;
+		opacity:0.7;
+	}
+	.jw-dialog-w{
+		position: absolute;
+		left:20rem/@fz;
+		right:20rem/@fz;
+		bottom:0;
+		border-radius: 4rem/@fz;
+    // 关闭按钮样式
+		.jw-dialog-close{
+			position: absolute;
+			//top:pxTorem(15);
+			//right:pxTorem(15);
+			top:0;
+			right:0;
+			margin:15rem/@fz;
+		}
+    // 备注弹框标题
+		.jw-dialog-title{
+			border-radius: 4rem/@fz 4rem/@fz 0 0;
+			height: 63rem/@fz;
+			background: #FFD600;
+			padding:0 15rem/@fz;
+			border:none;
+			.jw-dialog-pic{
+				float: left;
+				margin-top:13rem/@fz;
+				margin-right:10rem/@fz;
+				width: 36rem/@fz;
+				height: 36rem/@fz;
+				img{
+					width: 36rem/@fz;
+					height: 36rem/@fz;
+					border-radius: 36rem/@fz;
+				}
+			}
+			.jw-dialog-title-c{
+				display: block;
+				line-height: 63rem/@fz;
+				color: #494949;
+				font-size:16rem/@fz;
+			}
+		}
+		.jw-dialog-c{
+			background: #fff;
+			//min-height: pxTorem(100);
+			.form-detail{
+				padding:0 35rem/@fz;
+			}
+		}
+    // 备注弹框确认按钮
+		.jw-dialog-btn{
+			border:none;
+			height:55rem/@fz;
+			border-radius: 0 0 4rem/@fz 4rem/@fz;
+			background: #F7F7F7;
+			line-height: 55rem/@fz;
+			text-align: center;
+			color: #999999;
+			font-size:17rem/@fz;
+			i{
+				vertical-align: middle;
+			}
+			span{
+				margin-left:10rem/@fz;
+				vertical-align: middle;
+			}
+		}
+	}
+}
+
+.hide-scroll{
+	overflow: hidden!important;
+}
+
+.clear-padding{
+	padding:0!important;
+}
+
+.jw-dialog.fix{
+	.jw-dialog-w{
+		top:50%;
+		bottom: auto;
+	}
+}
+
+.appraisal-form{
+	padding:24rem/@fz 0;
+	min-height: 160rem/@fz;
+}
+
+.am-list.jw-list .am-list-body{
+  border:none!important;
+}
+
+@close_bg_url: "/modal";
+// alert弹出框右上角关闭按钮
+.am-modal-button{
+  .icon-alert-cancel {
+    display: inline-block;
+    background: url("@{close_bg_url}/images/sprite.png");
+    background-position: 0rem -4.456521739130435rem;
+    background-size: 1.2077294685990339rem;
+    width: 0.3502415458937198rem;
+    height: 0.36231884057971014rem !important;
+  }
+}
+
+// memoDialog的右上角的关闭按钮
+.icon-close-b {
+  display: inline-block;
+  background: url("@{close_bg_url}/images/sprite.png");
+  background-position: 0rem -5.036231884057972rem;
+  background-size: 1.2077294685990339rem;
+  width: 0.3502415458937198rem;
+  height: 0.36231884057971014rem;
+}
+
+// memoDialog的确认按钮前的icon
+.icon-check-36 {
+  display: inline-block;
+  background: url("@{close_bg_url}/images/sprite.png");
+  background-position: 0rem -12.379227053140097rem;
+  background-size: 1.2077294685990339rem;
+  width: 0.44685990338164255rem;
+  height: 0.4589371980676329rem;
+}
+
+// 关闭按钮样式
+.jw-alert-btn{
+  position: absolute;
+  right: 5px;
+  top: 0;
+  background:transparent;
+  width:1.0144927536rem !important;
+}
+
+// alert的底部按钮样式
+.jw-alert{
+  .am-modal-button-group-h .am-modal-button:nth-child(2){
+    width: 0;
+    flex: inherit;
+  }
+}
+
+// confirm的底部按钮样式
+.jw-confirm{
+  .am-modal-button-group-v .am-modal-button:nth-child(1){
+    float:left;
+    width:50%;
+    border-right:0.5px solid #e5e4e5;
+  }
+  .am-modal-button-group-v .am-modal-button:nth-child(2){
+    float:left;
+    width:50%;
+  }
 }

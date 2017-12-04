@@ -1,0 +1,18 @@
+.am-list-item.am-textarea-item {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.am-list-item.am-textarea-item .am-textarea-control {
+  min-height: 150px;
+  padding-top: 10px;
+}
+.am-list-item.am-textarea-item .am-textarea-control textarea {
+  font-size: 16px;
+  color: #333;
+  line-height: 0.43548387rem;
+}
+.am-list-item.am-textarea-item .am-textarea-control textarea::-webkit-input-placeholder {
+  border: none;
+  color: #999;
+  font-size: 16px;
+}

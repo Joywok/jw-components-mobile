@@ -2,47 +2,47 @@
   width: 75%!important;
 }
 .am-modal-wrap .am-modal.am-modal-transparent .am-modal-content {
-  border-radius: 0.72463768rem;
+  border-radius: 0.24193548rem;
 }
 .am-modal-wrap .am-modal.am-modal-android .am-modal-content .am-modal-header {
   margin-bottom: 20px;
   padding: 0;
 }
 .am-modal-wrap .am-modal.am-modal-android .am-modal-content .am-modal-header .am-modal-title {
-  font-size: 1.15942029rem;
+  font-size: 0.38709677rem;
   line-height: 1;
   color: #333;
   text-align: center;
 }
 .am-modal-wrap .am-modal.am-modal-android .am-modal-content .am-modal-header .am-modal-title img {
   border-style: none;
-  width: 5.07246377rem;
-  height: 5.07246377rem;
-  border-radius: 5.07246377rem;
+  width: 1.69354839rem;
+  height: 1.69354839rem;
+  border-radius: 1.69354839rem;
 }
 .am-modal-wrap .am-modal.am-modal-android .am-modal-content .am-modal-header .am-modal-title .title {
-  font-size: 1.15942029rem;
+  font-size: 0.38709677rem;
   color: #333;
 }
 .am-modal-wrap .am-modal.am-modal-android .am-modal-content .am-modal-body {
   color: #777;
-  font-size: 0.94202899rem;
+  font-size: 0.31451613rem;
   text-align: center;
 }
 .am-modal-wrap .am-modal.am-modal-android .am-modal-content .am-modal-body .content {
-  line-height: 1.44927536rem;
-  font-size: 0.94202899rem;
+  line-height: 0.48387097rem;
+  font-size: 0.31451613rem;
 }
 .am-modal-wrap .am-modal.am-modal-android .am-modal-content .am-modal-body img {
   border-style: none;
-  width: 5.07246377rem;
-  height: 5.07246377rem;
-  border-radius: 5.07246377rem;
+  width: 1.69354839rem;
+  height: 1.69354839rem;
+  border-radius: 1.69354839rem;
 }
 .am-modal-wrap .am-modal.am-modal-android .am-modal-content .am-modal-body .title {
-  font-size: 1.15942029rem;
+  font-size: 0.38709677rem;
   color: #333;
-  margin: 0.72463768rem 0;
+  margin: 0.24193548rem 0;
 }
 .am-modal-wrap .am-modal.am-modal-android .am-modal-content .am-modal-footer {
   padding-bottom: inherit;
@@ -54,9 +54,9 @@
 }
 .am-modal-wrap .am-modal.am-modal-android .am-modal-content .am-modal-footer .am-modal-button-group-h .am-modal-button {
   color: #777;
-  font-size: 1.15942029rem;
-  height: 3.62318841rem;
-  line-height: 3.62318841rem;
+  font-size: 0.38709677rem;
+  height: 1.20967742rem;
+  line-height: 1.20967742rem;
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -78,9 +78,9 @@
   text-decoration: none;
   outline: none;
   color: #777;
-  font-size: 1.15942029rem;
-  height: 3.62318841rem;
-  line-height: 3.62318841rem;
+  font-size: 0.38709677rem;
+  height: 1.20967742rem;
+  line-height: 1.20967742rem;
   width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -93,7 +93,7 @@
 }
 .am-modal-wrap .am-modal .am-modal-content .am-modal-close {
   cursor: pointer;
-  right: 1.08695652rem;
+  right: 0.36290323rem;
   left: inherit;
   font-size: 0.38rem;
   top: 10px;
@@ -112,49 +112,189 @@
   padding: 0;
 }
 .am-modal-wrap .am-modal .am-modal-content .am-modal-header .am-modal-title {
-  font-size: 1.15942029rem;
+  font-size: 0.38709677rem;
   line-height: 1;
   color: #333;
   text-align: center;
 }
 .am-modal-wrap .am-modal .am-modal-content .am-modal-header .am-modal-title img {
   border-style: none;
-  width: 5.07246377rem;
-  height: 5.07246377rem;
-  border-radius: 5.07246377rem;
+  width: 1.69354839rem;
+  height: 1.69354839rem;
+  border-radius: 1.69354839rem;
 }
 .am-modal-wrap .am-modal .am-modal-content .am-modal-header .am-modal-title .title {
-  font-size: 1.15942029rem;
+  font-size: 0.38709677rem;
   color: #333;
 }
 .am-modal-wrap .am-modal .am-modal-content .am-modal-body {
   color: #777;
-  font-size: 1.15942029rem;
+  font-size: 0.38709677rem;
 }
 .am-modal-wrap .am-modal .am-modal-content .am-modal-body .content {
   line-height: 20px;
-  font-size: 1.15942029rem;
+  font-size: 0.38709677rem;
 }
 .am-modal-wrap .am-modal .am-modal-content .am-modal-body img {
   border-style: none;
-  width: 5.07246377rem;
-  height: 5.07246377rem;
-  border-radius: 5.07246377rem;
+  width: 1.69354839rem;
+  height: 1.69354839rem;
+  border-radius: 1.69354839rem;
 }
 .am-modal-wrap .am-modal .am-modal-content .am-modal-body .title {
-  font-size: 1.15942029rem;
+  font-size: 0.38709677rem;
   color: #333;
   margin: 10px 0;
 }
 .am-modal-wrap .am-modal .am-modal-content .am-modal-footer .am-modal-button-group-h .am-modal-button {
   color: #777;
-  font-size: 1.15942029rem;
-  height: 3.62318841rem;
-  line-height: 3.62318841rem;
+  font-size: 0.38709677rem;
+  height: 1.20967742rem;
+  line-height: 1.20967742rem;
 }
 .am-modal-wrap .am-modal .am-modal-content .am-modal-footer .am-modal-button-group-v .am-modal-button {
   color: #777;
-  font-size: 1.15942029rem;
-  height: 3.62318841rem;
-  line-height: 3.62318841rem;
+  font-size: 0.38709677rem;
+  height: 1.20967742rem;
+  line-height: 1.20967742rem;
+}
+.jw-dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 22222;
+  overflow: hidden;
+}
+.jw-dialog .jw-dialog-mark {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #000000;
+  opacity: 0.7;
+}
+.jw-dialog .jw-dialog-w {
+  position: absolute;
+  left: 0.48309179rem;
+  right: 0.48309179rem;
+  bottom: 0;
+  border-radius: 0.09661836rem;
+}
+.jw-dialog .jw-dialog-w .jw-dialog-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0.36231884rem;
+}
+.jw-dialog .jw-dialog-w .jw-dialog-title {
+  border-radius: 0.09661836rem 0.09661836rem 0 0;
+  height: 1.52173913rem;
+  background: #FFD600;
+  padding: 0 0.36231884rem;
+  border: none;
+}
+.jw-dialog .jw-dialog-w .jw-dialog-title .jw-dialog-pic {
+  float: left;
+  margin-top: 0.31400966rem;
+  margin-right: 0.24154589rem;
+  width: 0.86956522rem;
+  height: 0.86956522rem;
+}
+.jw-dialog .jw-dialog-w .jw-dialog-title .jw-dialog-pic img {
+  width: 0.86956522rem;
+  height: 0.86956522rem;
+  border-radius: 0.86956522rem;
+}
+.jw-dialog .jw-dialog-w .jw-dialog-title .jw-dialog-title-c {
+  display: block;
+  line-height: 1.52173913rem;
+  color: #494949;
+  font-size: 0.38647343rem;
+}
+.jw-dialog .jw-dialog-w .jw-dialog-c {
+  background: #fff;
+}
+.jw-dialog .jw-dialog-w .jw-dialog-c .form-detail {
+  padding: 0 0.84541063rem;
+}
+.jw-dialog .jw-dialog-w .jw-dialog-btn {
+  border: none;
+  height: 1.32850242rem;
+  border-radius: 0 0 0.09661836rem 0.09661836rem;
+  background: #F7F7F7;
+  line-height: 1.32850242rem;
+  text-align: center;
+  color: #999999;
+  font-size: 0.41062802rem;
+}
+.jw-dialog .jw-dialog-w .jw-dialog-btn i {
+  vertical-align: middle;
+}
+.jw-dialog .jw-dialog-w .jw-dialog-btn span {
+  margin-left: 0.24154589rem;
+  vertical-align: middle;
+}
+.hide-scroll {
+  overflow: hidden!important;
+}
+.clear-padding {
+  padding: 0!important;
+}
+.jw-dialog.fix .jw-dialog-w {
+  top: 50%;
+  bottom: auto;
+}
+.appraisal-form {
+  padding: 0.57971014rem 0;
+  min-height: 3.8647343rem;
+}
+.am-list.jw-list .am-list-body {
+  border: none!important;
+}
+.am-modal-button .icon-alert-cancel {
+  display: inline-block;
+  background: url("/modal/images/sprite.png");
+  background-position: 0rem -4.45652174rem;
+  background-size: 1.2077294685990339rem;
+  width: 0.3502415458937198rem;
+  height: 0.36231884057971014rem !important;
+}
+.icon-close-b {
+  display: inline-block;
+  background: url("/modal/images/sprite.png");
+  background-position: 0rem -5.03623188rem;
+  background-size: 1.2077294685990339rem;
+  width: 0.3502415458937198rem;
+  height: 0.36231884057971014rem;
+}
+.icon-check-36 {
+  display: inline-block;
+  background: url("/modal/images/sprite.png");
+  background-position: 0rem -12.37922705rem;
+  background-size: 1.2077294685990339rem;
+  width: 0.44685990338164255rem;
+  height: 0.4589371980676329rem;
+}
+.jw-alert-btn {
+  position: absolute;
+  right: 5px;
+  top: 0;
+  background: transparent;
+  width: 1.0144927536rem !important;
+}
+.jw-alert .am-modal-button-group-h .am-modal-button:nth-child(2) {
+  width: 0;
+  flex: inherit;
+}
+.jw-confirm .am-modal-button-group-v .am-modal-button:nth-child(1) {
+  float: left;
+  width: 50%;
+  border-right: 0.5px solid #e5e4e5;
+}
+.jw-confirm .am-modal-button-group-v .am-modal-button:nth-child(2) {
+  float: left;
+  width: 50%;
 }
