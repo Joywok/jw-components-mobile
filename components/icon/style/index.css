@@ -12,191 +12,191 @@
   vertical-align: sub;
 }
 .icon-chart {
-  width: 1.44927536rem;
-  height: 1.44927536rem;
+  width: 0.48387097rem;
+  height: 0.48387097rem;
   background-position: 0 0;
 }
 .icon-chart.active,
 .icon-chart:hover {
-  background-position: -1.44927536rem 0;
+  background-position: -0.48387097rem 0;
 }
 .icon-like {
-  width: 1.30434783rem;
-  height: 1.30434783rem;
-  background-position: 0 -1.52173913rem;
+  width: 0.43548387rem;
+  height: 0.43548387rem;
+  background-position: 0 -0.50806452rem;
 }
 .icon-like.active,
 .icon-like:hover {
-  background-position: -1.44927536rem -1.52173913rem;
+  background-position: -0.48387097rem -0.50806452rem;
 }
 .icon-dept {
-  width: 1.44927536rem;
-  height: 1.44927536rem;
-  background-position: 0 -2.89855072rem;
+  width: 0.48387097rem;
+  height: 0.48387097rem;
+  background-position: 0 -0.96774194rem;
 }
 .icon-dept.active,
 .icon-dept:hover {
-  background-position: -1.95652174rem -120rem;
+  background-position: -0.65322581rem -120rem;
 }
 .icon-close {
-  width: 1.15942029rem;
-  height: 1.15942029rem;
-  background-position: 0 -4.34782609rem;
+  width: 0.38709677rem;
+  height: 0.38709677rem;
+  background-position: 0 -1.4516129rem;
 }
 .icon-close.active,
 .icon-close:hover {
-  background-position: -1.44927536rem -4.34782609rem;
+  background-position: -0.48387097rem -1.4516129rem;
 }
 .icon-filter {
-  width: 1.30434783rem;
-  height: 1.37681159rem;
-  background-position: 0 -5.79710145rem;
+  width: 0.43548387rem;
+  height: 0.45967742rem;
+  background-position: 0 -1.93548387rem;
 }
 .icon-filter.active,
 .icon-filter:hover {
-  background-position: -1.44927536rem -5.79710145rem;
+  background-position: -0.48387097rem -1.93548387rem;
 }
 .icon-pass {
-  width: 1.37681159rem;
-  height: 1.37681159rem;
-  background-position: 0 -7.24637681rem;
+  width: 0.45967742rem;
+  height: 0.45967742rem;
+  background-position: 0 -2.41935484rem;
 }
 .icon-pass.active,
 .icon-pass:hover {
-  background-position: -1.44927536rem -7.24637681rem;
+  background-position: -0.48387097rem -2.41935484rem;
 }
 .icon-no-pass {
-  width: 1.37681159rem;
-  height: 1.37681159rem;
-  background-position: 0 -8.69565217rem;
+  width: 0.45967742rem;
+  height: 0.45967742rem;
+  background-position: 0 -2.90322581rem;
 }
 .icon-no-pass.active,
 .icon-no-pass:hover {
-  background-position: -1.44927536rem -8.69565217rem;
+  background-position: -0.48387097rem -2.90322581rem;
 }
 .icon-as {
-  width: 1.44927536rem;
-  height: 1.15942029rem;
-  background-position: 0 -10.14492754rem;
+  width: 0.48387097rem;
+  height: 0.38709677rem;
+  background-position: 0 -3.38709677rem;
 }
 .icon-as.active,
 .icon-as:hover {
-  background-position: -1.44927536rem -10.14492754rem;
+  background-position: -0.48387097rem -3.38709677rem;
 }
 .icon-foward {
-  width: 1.23188406rem;
-  height: 1.37681159rem;
-  background-position: 0 -11.5942029rem;
+  width: 0.41129032rem;
+  height: 0.45967742rem;
+  background-position: 0 -3.87096774rem;
 }
 .icon-foward.active,
 .icon-foward:hover {
-  background-position: -1.44927536rem -1.44927536rem;
+  background-position: -0.48387097rem -0.48387097rem;
 }
 .icon-people-talk {
-  width: 1.73913043rem;
-  height: 1.23188406rem;
+  width: 0.58064516rem;
+  height: 0.41129032rem;
   background-position: 0 -180px;
 }
 .icon-people-talk.active,
 .icon-people-talk:hover {
-  background-position: -1.88405797rem -13.04347826rem;
+  background-position: -0.62903226rem -4.35483871rem;
 }
 .icon-add {
-  width: 1.30434783rem;
-  height: 1.30434783rem;
-  background-position: 0 -14.49275362rem;
+  width: 0.43548387rem;
+  height: 0.43548387rem;
+  background-position: 0 -4.83870968rem;
 }
 .icon-add.active,
 .icon-add:hover {
-  background-position: -1.44927536rem -14.49275362rem;
+  background-position: -0.48387097rem -4.83870968rem;
 }
 .icon-less {
-  width: 1.44927536rem;
-  height: 0.14492754rem;
-  background-position: 0 -15.94202899rem;
+  width: 0.48387097rem;
+  height: 0.0483871rem;
+  background-position: 0 -5.32258065rem;
 }
 .icon-less.active,
 .icon-less:hover {
-  background-position: -1.44927536rem -15.94202899rem;
+  background-position: -0.48387097rem -5.32258065rem;
 }
 .icon-application {
-  width: 1.37681159rem;
-  height: 1.37681159rem;
-  background-position: 0 -16.37681159rem;
+  width: 0.45967742rem;
+  height: 0.45967742rem;
+  background-position: 0 -5.46774194rem;
 }
 .icon-application.active,
 .icon-application:hover {
-  background-position: -1.44927536rem -16.37681159rem;
+  background-position: -0.48387097rem -5.46774194rem;
 }
 .icon-file {
-  width: 1.5942029rem;
-  height: 1.30434783rem;
-  background-position: 0 -17.89855072rem;
+  width: 0.53225806rem;
+  height: 0.43548387rem;
+  background-position: 0 -5.97580645rem;
 }
 .icon-file.active,
 .icon-file:hover {
-  background-position: -1.88405797rem -17.89855072rem;
+  background-position: -0.62903226rem -5.97580645rem;
 }
 .icon-address {
-  width: 1.52173913rem;
-  height: 1.52173913rem;
-  background-position: 0 -19.27536232rem;
+  width: 0.50806452rem;
+  height: 0.50806452rem;
+  background-position: 0 -6.43548387rem;
 }
 .icon-address.active,
 .icon-address:hover {
-  background-position: -1.88405797rem -19.27536232rem;
+  background-position: -0.62903226rem -6.43548387rem;
 }
 .icon-good {
-  width: 1.44927536rem;
-  height: 1.44927536rem;
-  background-position: 0 -21.23188406rem;
+  width: 0.48387097rem;
+  height: 0.48387097rem;
+  background-position: 0 -7.08870968rem;
 }
 .icon-good.active,
 .icon-good:hover {
-  background-position: -1.44927536rem -21.23188406rem;
+  background-position: -0.48387097rem -7.08870968rem;
 }
 .icon-setting {
-  width: 1.37681159rem;
-  height: 1.37681159rem;
-  background-position: 0 -22.68115942rem;
+  width: 0.45967742rem;
+  height: 0.45967742rem;
+  background-position: 0 -7.57258065rem;
 }
 .icon-setting.active,
 .icon-setting:hover {
-  background-position: -1.44927536rem -22.68115942rem;
+  background-position: -0.48387097rem -7.57258065rem;
 }
 .icon-search {
-  width: 1.37681159rem;
-  height: 1.37681159rem;
-  background-position: -3.84057971rem 0;
+  width: 0.45967742rem;
+  height: 0.45967742rem;
+  background-position: -1.28225806rem 0;
 }
 .icon-search.active,
 .icon-search:hover {
-  background-position: -5.28985507rem 0;
+  background-position: -1.76612903rem 0;
 }
 .icon-msg {
-  width: 1.66666667rem;
-  height: 1.37681159rem;
-  background-position: -3.4057971rem -1.44927536rem;
+  width: 0.55645161rem;
+  height: 0.45967742rem;
+  background-position: -1.13709677rem -0.48387097rem;
 }
 .icon-msg.active,
 .icon-msg:hover {
-  background-position: -5.28985507rem -1.44927536rem;
+  background-position: -1.76612903rem -0.48387097rem;
 }
 .icon-help {
-  width: 1.37681159rem;
-  height: 1.37681159rem;
-  background-position: -3.84057971rem -2.89855072rem;
+  width: 0.45967742rem;
+  height: 0.45967742rem;
+  background-position: -1.28225806rem -0.96774194rem;
 }
 .icon-help.active,
 .icon-help:hover {
-  background-position: -5.28985507rem -2.89855072rem;
+  background-position: -1.76612903rem -0.96774194rem;
 }
 .icon-exit {
-  width: 1.37681159rem;
-  height: 1.37681159rem;
-  background-position: -3.84057971rem -13.04347826rem;
+  width: 0.45967742rem;
+  height: 0.45967742rem;
+  background-position: -1.28225806rem -4.35483871rem;
 }
 .icon-exit.active,
 .icon-exit:hover {
-  background-position: -5.28985507rem -13.04347826rem;
+  background-position: -1.76612903rem -4.35483871rem;
 }

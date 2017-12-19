@@ -4,15 +4,15 @@
   left: 2px;
 }
 .am-tab-bar .am-tab-bar-bar .am-tab-bar-tab-icon .tab-badge:last-child .am-badge-text {
-  margin-top: 0.65217391rem;
+  margin-top: 0.21774194rem;
   font-size: 14px;
-  left: 1.8115942rem;
+  left: 0.60483871rem;
   border-radius: 50%;
-  width: 0.72463768rem;
-  height: 0.72463768rem;
-  padding: 0.36231884rem;
-  min-width: 0.72463768rem;
-  line-height: 0.72463768rem;
+  width: 0.24193548rem;
+  height: 0.24193548rem;
+  padding: 0.12096774rem;
+  min-width: 0.24193548rem;
+  line-height: 0.24193548rem;
 }
 .am-tab-bar .am-badge-text {
   text-rendering: optimizeLegibility;
@@ -33,7 +33,7 @@
   z-index: 10;
 }
 .am-tab-bar .am-tab-bar-tab .am-tab-bar-tab-icon .am-tab-bar-tab-badge.tab-dot.am-badge:last-child .am-badge-dot {
-  left: 1.8115942rem;
+  left: 0.60483871rem;
 }
 .am-tab-bar .am-tab-bar-content .am-tab-bar-tabpane {
   overflow: auto;
@@ -47,7 +47,7 @@
   cursor: pointer;
 }
 .am-tab-bar .am-tab-bar-bar .am-tab-bar-tab .am-tab-bar-tab-icon {
-  margin: 0.36231884rem 0;
+  margin: 0.12096774rem 0;
 }
 .am-tab-bar .am-tab-bar-bar .am-tab-bar-tab .am-tab-bar-tab-icon div {
   width: 25px;
@@ -63,9 +63,9 @@
   height: 25px!important;
 }
 .am-tab-bar .am-tab-bar-bar .am-tab-bar-tab .am-tab-bar-tab-title {
-  font-size: 0.86956522rem;
+  font-size: 0.29032258rem;
   color: #333;
-  margin: 0.36231884rem 0;
+  margin: 0.12096774rem 0;
 }
 .am-tab-bar .am-tab-bar-bar:after {
   display: block;
