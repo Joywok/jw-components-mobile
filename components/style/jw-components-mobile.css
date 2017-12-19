@@ -1,17 +1,17 @@
 .am-button {
-  color: #777;
-  height: 3.04347826rem !important;
-  line-height: 3.04347826rem !important;
+  background: red;
+  height: 3.04347826rem;
+  line-height: 3.04347826rem;
   cursor: pointer;
   border-radius: 5px;
-  font-size: 1.15942029rem !important;
-  border: none!important;
+  font-size: 1.15942029rem;
+  border: none;
 }
 .am-button {
-  height: 3.04347826rem !important;
-  line-height: 3.04347826rem !important;
-  font-size: 1.01449275rem !important;
-  border-radius: 5px!important;
+  height: 3.04347826rem;
+  line-height: 3.04347826rem;
+  font-size: 1.01449275rem;
+  border-radius: 5px;
   width: 100%;
 }
 .am-button.am-button-active {
@@ -20,7 +20,7 @@
   color: #fff;
 }
 .am-button.am-button-primary {
-  color: #fff;
+  color: red ;
   background: #f1f1f1;
 }
 .am-button.am-button-primary.am-button-active {

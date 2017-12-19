@@ -261,7 +261,7 @@
 .am-list.jw-list .am-list-body .am-list-item.am-input-item:after {
   content: '';
   width: 200%;
-  display: none!important;
+  display: none;
   position: absolute;
   top: 2.85024155rem;
   left: initial;

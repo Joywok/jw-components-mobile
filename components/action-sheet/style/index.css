@@ -39,7 +39,7 @@
   box-sizing: border-box;
 }
 .am-action-sheet .am-action-sheet-content .am-action-sheet-body .am-action-sheet-button-list .am-action-sheet-button-list-item.am-action-sheet-destructive-button {
-  color: #ff3b2f !important;
+  color: #ff3b2f;
 }
 .am-action-sheet .am-action-sheet-content .am-action-sheet-body .am-action-sheet-button-list .am-action-sheet-button-list-item.am-action-sheet-cancel-button .am-action-sheet-cancel-button-mask {
   border-top: none;

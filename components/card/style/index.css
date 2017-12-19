@@ -1,10 +1,10 @@
 .am-card.am-card-full {
-  border: none!important;
-  padding: 0!important;
+  border: none;
+  padding: 0;
 }
 .am-card.am-card-full .am-card-body {
-  padding: 0!important;
-  border: none!important;
+  padding: 0;
+  border: none;
   font-size: 1.01449275rem;
 }
 .am-card.am-card-full .am-card-body .cardwrap.card1,
@@ -65,7 +65,7 @@
   margin-top: 1.08695652rem;
 }
 .am-card.am-card-full .am-card-body .cardwrap.card2 {
-  background: #fff !important;
+  background: #fff;
   color: #333;
 }
 .am-card.am-card-full .am-card-body .cardwrap.card3 {

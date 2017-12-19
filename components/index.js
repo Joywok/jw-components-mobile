@@ -15,10 +15,15 @@ export {default as InputItem } from './input-item/index';
 export {default as Modal } from './modal/index';
 export {default as DatePicker } from './date-picker/index';
 export {default as Card } from './card/index';
+export {default as Tabs } from './tabs/index';
+export {default as TextareaItem } from './textarea-item/index';
+export {default as Progress } from './progress/index';
 export {default as WhiteSpace } from './WhiteSpace/index';
 export {default as Carousel } from './Carousel/index';
 export {default as WingBlank } from './WingBlank/index';
+export {default as Toast } from './Toast/index';
 export {default as Badge } from './badge/index';
+
 
 
 
