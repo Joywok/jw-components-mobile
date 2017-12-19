@@ -21,6 +21,7 @@
                             height: 21px;
                         }
                     }
+
                     .am-checkbox.am-checkbox-checked {
                         .am-checkbox-inner {
                             border: 1px solid @checkbox-checked-border-color;
@@ -98,11 +99,45 @@
         .am-checkbox-item.am-list-item:first-child:after {
             display:none;
         }
+        // 扁平化的checkbox
+        .jw-checkbox-button{
+          width:auto;
+          float:left;
+          min-height:@checkbox-min-height!important;
+          margin-top:@checkbox-margin;
+          margin-left:@checkbox-margin;
+          .am-list-thumb{
+            .am-checkbox-inner{
+              display:none;
+            }
+          }
+          .am-list-line{
+            padding:0 !important;
+            min-height:@checkbox-min-height !important;
+            .am-list-content{
+              text-align:center;
+              background: #fff;
+              border: 0.5px solid #ccc;
+              border-radius: @checkbox-border-radius;
+              box-sizing: border-box;
+              line-height:@checkbox-min-height !important;
+              padding: @checkbox-padding !important;
+              margin-left:0!important;
+            }
+          }
+          &.jw-checkbox-checked{
+            .am-list-content{
+              background:#449bf5;
+              color:#fff!important;
+              z-index:3;
+            }
+          }
+        }
     }
 }
 
 .am-list .am-list-item.am-checkbox-item .am-list-thumb {
-    width: 0!important;
+    width: 0;
     margin: 0;
 }
 
@@ -135,11 +170,11 @@
                    .am-list-extra{
                         .am-switch input[type="checkbox"]:checked + .checkbox:after{
                         }
-                   } 
+                   }
                 }
             }
         }
-    } 
+    }
     .am-list.jw-list{
         .am-list-body{
             .am-checkbox-item.am-list-item{
@@ -148,7 +183,7 @@
                 }
             }
         }
-    } 
+    }
     //input
     .am-list.jw-list{
         .am-list-body {
@@ -157,9 +192,9 @@
                     input{
                       padding-top:7px;
                     }
-                    
+
                 }
-            }  
+            }
             .am-list-item.am-input-item{
                 .am-input-control{
                     input{
@@ -225,7 +260,7 @@
             }
             .am-input-control{
                 input{
-                  padding:(23rem/@fontSize) 0;  
+                  padding:(23rem/@fontSize) 0;
                 }
             }
         }
@@ -238,7 +273,7 @@
             .am-list-item.am-input-item{
                 .am-input-control{
                     input{
-                       padding-top:0.57rem; 
+                       padding-top:0.57rem;
                     }
                 }
             }
@@ -263,9 +298,9 @@
                 .am-input-control{
                     input{
                       padding-top:7px;
-                    } 
+                    }
                 }
-            }  
+            }
             .am-list-item.am-input-item{
                 .am-input-control{
                     input{

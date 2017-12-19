@@ -35,16 +35,16 @@
 }
 .am-picker-popup-body .am-picker-popup-item {
   color: #157efb;
-  font-size: 1.15942029rem;
+  font-size: 0.38709677rem;
   padding: 18px 30px;
 }
 .am-picker-popup-body .am-picker {
   color: #157efb;
-  font-size: 1.15942029rem;
+  font-size: 0.38709677rem;
 }
 .am-picker-popup-body .am-picker .am-picker-col-item {
   color: #333;
-  font-size: 1.15942029rem;
+  font-size: 0.38709677rem;
 }
 .am-picker-popup-body .am-picker .am-picker-col {
   display: block;
@@ -64,7 +64,7 @@
 .am-picker-popup-body .am-picker .am-picker-col .am-picker-col-content .am-picker-col-item {
   touch-action: manipulation;
   text-align: center;
-  font-size: 1.01449275rem;
+  font-size: 0.33870968rem;
   height: 34px;
   line-height: 34px;
   color: #000;

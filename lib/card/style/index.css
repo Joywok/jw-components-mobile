@@ -5,7 +5,7 @@
 .am-card.am-card-full .am-card-body {
   padding: 0!important;
   border: none!important;
-  font-size: 1.01449275rem;
+  font-size: 0.33870968rem;
 }
 .am-card.am-card-full .am-card-body .cardwrap.card1,
 .am-card.am-card-full .am-card-body .cardwrap.card2,
@@ -14,7 +14,7 @@
   background: #0ab771;
   position: relative;
   overflow: hidden;
-  padding: 1.44927536rem 8%;
+  padding: 0.48387097rem 8%;
   margin: 0 auto;
   color: #fff;
 }
@@ -22,7 +22,7 @@
 .am-card.am-card-full .am-card-body .cardwrap.card2 .avatar,
 .am-card.am-card-full .am-card-body .cardwrap.card3 .avatar {
   float: left;
-  margin-right: 1.08695652rem;
+  margin-right: 0.36290323rem;
   overflow: hidden;
 }
 .am-card.am-card-full .am-card-body .cardwrap.card1 .avatar img,
@@ -34,16 +34,16 @@
 .am-card.am-card-full .am-card-body .cardwrap.card1 .avatar.avatar-1,
 .am-card.am-card-full .am-card-body .cardwrap.card2 .avatar.avatar-1,
 .am-card.am-card-full .am-card-body .cardwrap.card3 .avatar.avatar-1 {
-  width: 3.98550725rem;
-  height: 3.98550725rem;
-  border-radius: 3.98550725rem;
+  width: 1.33064516rem;
+  height: 1.33064516rem;
+  border-radius: 1.33064516rem;
 }
 .am-card.am-card-full .am-card-body .cardwrap.card1 .avatar.avatar-2,
 .am-card.am-card-full .am-card-body .cardwrap.card2 .avatar.avatar-2,
 .am-card.am-card-full .am-card-body .cardwrap.card3 .avatar.avatar-2 {
-  width: 4.7826087rem;
-  height: 4.7826087rem;
-  border-radius: 4.7826087rem;
+  width: 1.59677419rem;
+  height: 1.59677419rem;
+  border-radius: 1.59677419rem;
 }
 .am-card.am-card-full .am-card-body .cardwrap.card1 .info,
 .am-card.am-card-full .am-card-body .cardwrap.card2 .info,
@@ -56,13 +56,13 @@
 .am-card.am-card-full .am-card-body .cardwrap.card1 .info .info-2,
 .am-card.am-card-full .am-card-body .cardwrap.card2 .info .info-2,
 .am-card.am-card-full .am-card-body .cardwrap.card3 .info .info-2 {
-  margin-top: 0.57971014rem;
+  margin-top: 0.19354839rem;
 }
 .am-card.am-card-full .am-card-body .cardwrap.card1 .cont,
 .am-card.am-card-full .am-card-body .cardwrap.card2 .cont,
 .am-card.am-card-full .am-card-body .cardwrap.card3 .cont {
   text-align: left;
-  margin-top: 1.08695652rem;
+  margin-top: 0.36290323rem;
 }
 .am-card.am-card-full .am-card-body .cardwrap.card2 {
   background: #fff !important;
@@ -77,6 +77,6 @@
   margin: 0 auto;
 }
 .am-card.am-card-full .am-card-body .cardwrap.card3 .card-name {
-  margin-top: 0.86956522rem;
+  margin-top: 0.29032258rem;
   text-align: center;
 }

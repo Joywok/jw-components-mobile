@@ -1,16 +1,16 @@
 .am-button {
   color: #777;
-  height: 3.04347826rem !important;
-  line-height: 3.04347826rem !important;
+  height: 1.01612903rem !important;
+  line-height: 1.01612903rem !important;
   cursor: pointer;
   border-radius: 5px;
-  font-size: 1.15942029rem !important;
+  font-size: 0.38709677rem !important;
   border: none!important;
 }
 .am-button {
-  height: 3.04347826rem !important;
-  line-height: 3.04347826rem !important;
-  font-size: 1.01449275rem !important;
+  height: 1.01612903rem !important;
+  line-height: 1.01612903rem !important;
+  font-size: 0.33870968rem !important;
   border-radius: 5px!important;
   width: 100%;
 }
