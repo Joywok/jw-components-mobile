@@ -1,3 +1,7 @@
 import SegmentedControl from "antd-mobile/lib/segmented-control/index";
-
-export default SegmentedControl;
+import React from 'react';
+import ReactDOM from 'react-dom';
+const JwSegmentedControl= (props) => (
+    <SegmentedControl className="jw-segment" {...props}  />
+);
+export default JwSegmentedControl;
