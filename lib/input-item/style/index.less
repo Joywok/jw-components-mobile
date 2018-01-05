@@ -2,7 +2,6 @@
 @import  "../../style/themes/default";
 
 .jw-item {
-    padding:(30rem/@fontSize) 0;
     .am-input-label {
         font-size: @input-font-size-large;
         color: #333;
@@ -19,7 +18,7 @@
             display:block;
             width: 100%;
             border: none;
-            font-size: (42rem/@fontSize);
+            font-size: 16px;
             height: 21px;
             line-height: 20px;
             padding: 7px 0;
@@ -48,21 +47,21 @@
     }
     .am-input-control input::-webkit-input-placeholder {
         border:none;
-        font-size: @input-font-size-large;
+        font-size: @input-placeholder-fontSize;
         color: #999;
         font-weight: 400;
         
     }
     .am-input-control input:-moz-placeholder {
         border:none;
-        font-size: @input-font-size-large;
+        font-size: @input-placeholder-fontSize;
         color: #999;
         font-weight: 400;
 
     }
     .am-input-control input::-moz-placeholder {
         border:none;
-        font-size: @input-font-size-large;
+        font-size:@input-placeholder-fontSize;
         color: #999;
         font-weight: 400;
     }
@@ -113,7 +112,7 @@
             display: block;
             width: 100%;
             border: none;
-            font-size: @input-font-size-base;
+            font-size: 16px;
             height: (57rem/@fontSize);
             padding: (26rem/@fontSize) 0;
             box-sizing: content-box;
@@ -177,17 +176,16 @@
          background:#fff;
          padding:0 (30rem/@fontSize);
         .am-list-item.am-input-item {
-            padding:(30rem/@fontSize) 0;
             height: initial;
             line-height: @input-label-line-height;
             min-height:@input-label-line-height;
+            padding-right:0;
             .am-input-label {
                 font-size: @input-font-size-large;
                 color: #333;
                 font-weight: bold;
                 width: initial;
-                height: @input-label-line-height;
-                line-height: @input-label-line-height;
+                height: @input-label-height;
             }
             .am-input-label.am-input-label-4 {
                 float: left;
@@ -203,7 +201,7 @@
                     display:block;
                     width: 100%;
                     border: none;
-                    font-size: @input-font-size-base;
+                    font-size: 16px;
                     height: (60rem/@fontSize);
                     line-height: (60rem/@fontSize);
                     padding: (23rem/@fontSize) 0 (23rem/@fontSize);
@@ -232,7 +230,7 @@
             }
             .am-input-control input::-webkit-input-placeholder {
                 border:none;
-                font-size: @input-font-size-large;
+                font-size: @input-placeholder-fontSize;
                 color: #999;
                 font-weight: 400;
                 height: (60rem/@fontSize);
@@ -240,7 +238,7 @@
             }
             .am-input-control input:-moz-placeholder {
                 border:none;
-                font-size: @input-font-size-large;
+                font-size: @input-placeholder-fontSize;
                 color: #999;
                 font-weight: 400;
                 height: (60rem/@fontSize);
@@ -272,7 +270,7 @@
         .am-list-item.am-input-item:after {
             content: '';
             width: 200%;
-            display:none!important;
+            display:none;
             position: absolute;
             top:@input-before-line-position-top;
             left:initial;

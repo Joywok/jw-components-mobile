@@ -19,7 +19,7 @@
   right: auto;
   top: 99%;
   width: 200%;
-  border-bottom: 1px solid #ddd!important;
+  border-bottom: 1px solid #ddd;
   -webkit-transform-origin: 0 0;
   -moz-transform-origin: 0 0;
   -ms-transform-origin: 0 0;
@@ -35,16 +35,16 @@
 }
 .am-picker-popup-body .am-picker-popup-item {
   color: #157efb;
-  font-size: 1.15942029rem;
+  font-size: 0.38647343rem;
   padding: 18px 30px;
 }
 .am-picker-popup-body .am-picker {
   color: #157efb;
-  font-size: 1.15942029rem;
+  font-size: 0.38647343rem;
 }
 .am-picker-popup-body .am-picker .am-picker-col-item {
   color: #333;
-  font-size: 1.15942029rem;
+  font-size: 0.38647343rem;
 }
 .am-picker-popup-body .am-picker .am-picker-col {
   display: block;
@@ -64,7 +64,7 @@
 .am-picker-popup-body .am-picker .am-picker-col .am-picker-col-content .am-picker-col-item {
   touch-action: manipulation;
   text-align: center;
-  font-size: 1.01449275rem;
+  font-size: 0.33816425rem;
   height: 34px;
   line-height: 34px;
   color: #000;
@@ -75,7 +75,7 @@
   font-size: 16px;
 }
 .am-picker-popup-body .am-picker .am-picker-col .am-picker-col-content .am-picker-col-item-selected {
-  font-size: 16px!important;
+  font-size: 16px;
   transition: 0.5s;
 }
 .am-picker-popup-body .am-picker .am-picker-col .am-picker-col-mask {

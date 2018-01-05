@@ -1,0 +1,36 @@
+.am-navbar.am-navbar-light,
+.am-navbar.am-navbar-dark {
+  color: #777;
+  height: 1.08695652rem;
+}
+.am-navbar.am-navbar-light .am-navbar-left,
+.am-navbar.am-navbar-dark .am-navbar-left,
+.am-navbar.am-navbar-light .am-navbar-right,
+.am-navbar.am-navbar-dark .am-navbar-right {
+  font-size: 0.33816425rem;
+}
+.am-navbar.am-navbar-light .am-navbar-right,
+.am-navbar.am-navbar-dark .am-navbar-right {
+  margin-right: 0.36231884rem;
+}
+.am-navbar.am-navbar-light .am-navbar-left,
+.am-navbar.am-navbar-dark .am-navbar-left {
+  margin-left: 0.36231884rem;
+  padding-left: 0px;
+}
+.am-navbar.am-navbar-light .am-navbar-left .am-navbar-left-icon,
+.am-navbar.am-navbar-dark .am-navbar-left .am-navbar-left-icon {
+  display: none;
+}
+.am-navbar.am-navbar-light .am-navbar-left .am-navbar-left-icon .am-icon,
+.am-navbar.am-navbar-dark .am-navbar-left .am-navbar-left-icon .am-icon {
+  display: none;
+}
+.am-navbar.am-navbar-light .am-navbar-title,
+.am-navbar.am-navbar-dark .am-navbar-title {
+  font-size: 0.38647343rem;
+  color: #333;
+}
+.am-navbar.am-navbar-dark .am-navbar-title {
+  color: #fff;
+}

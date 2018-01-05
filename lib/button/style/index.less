@@ -1,57 +1,66 @@
 @import  "../../style/themes/default";
-.am-button {
-    color: @gray-lighter;
-    height: @btn-height!important;
-    line-height: @btn-height!important;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: @btn-font-size-lg!important;
-    border: none!important;
+
+.buttonItem{
+    margin-bottom:(45rem/@fontSize);
+    .btn.am-button {
+        color: @gray-lighter;
+        height: @btn-height;
+        line-height: @btn-height;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: @btn-font-size-lg;
+        border: none;
+    }
 }
 
 .am-button {
-    height:  @btn-height!important;
-    line-height:  @btn-height!important;
-    font-size: @btn-font-size!important;
-    border-radius: 5px!important;
+    height:  @btn-height;
+    line-height:  @btn-height;
+    font-size: @btn-font-size;
+    border-radius: 5px;
     width: 100%;
 }
 
-.am-button.am-button-active {
-    background: #f0f0f0;
+.btn.am-button.am-button-active {
+    background: @btn-default-bg;
     borde-color: @btn-default-active-border;
     color: #fff;
 }
 
-
-.am-button.am-button-primary {
-    color: #fff;
-    background: @default-bg;
+.btn.am-button.am-button-primary {
+    background: @btn-primary-bg;
 }
 
-.am-button.am-button-primary.am-button-active {
+.btn.am-button.am-button-primary {
+    color: #fff;
+    background: @btn-primary-bg;
+}
+
+.btn.am-button.am-button-primary.am-button-active {
     background: @btn-primary-active-bg;
 }
 
-.am-button-warning.am-button.am-button-active {
+.btn.am-button-warning.am-button.am-button-active {
     background: @btn-warning-active-bg;
 }
 
-.am-button-warning.am-button {
-    color: -warning-color;
+.btn.am-button-warning.am-button {
+    color: @btn-warning-color;
     background: @btn-warning-bg;
+    border:none;
 }
 
-.am-button.am-button-dsabled {
+.btn.am-button.am-button-dsabled {
     background: @btn-disabled-bg;
 }
 
-.am-button-ghost.am-button {
+.btn.am-button-ghost.am-button {
     color: @btn-ghost-color;
     background: @btn-ghost-bg;
-    border-color:@btn-ghost-bg;
+    border-color: @btn-ghost-bg;
 }
 
-.am-button-ghost.am-button.am-button-active {
+.btn.am-button-ghost.am-button.am-button-active {
     background: @btn-ghost-active-bg;
+
 }

@@ -1,20 +1,20 @@
 .am-action-sheet .am-action-sheet-content .am-action-sheet-body .am-action-sheet-message {
   color: #777;
-  font-size: 1.30434783rem;
-  height: 3.98550725rem;
-  line-height: 3.98550725rem;
+  font-size: 0.43478261rem;
+  height: 1.32850242rem;
+  line-height: 1.32850242rem;
   margin: inherit;
   padding: 0 15px;
 }
 .am-action-sheet .am-action-sheet-content .am-action-sheet-body .am-action-sheet-title {
   font-size: 16px;
-  margin: 1.08695652rem auto;
+  margin: 0.36231884rem auto;
 }
 .am-action-sheet .am-action-sheet-content .am-action-sheet-body .am-action-sheet-button-list .am-action-sheet-button-list-item {
-  font-size: 1.30434783rem;
+  font-size: 0.43478261rem;
   color: #333;
-  height: 3.98550725rem;
-  line-height: 3.98550725rem;
+  height: 1.32850242rem;
+  line-height: 1.32850242rem;
   border-top: none;
 }
 .am-action-sheet .am-action-sheet-content .am-action-sheet-body .am-action-sheet-button-list .am-action-sheet-button-list-item:after {
@@ -39,11 +39,15 @@
   box-sizing: border-box;
 }
 .am-action-sheet .am-action-sheet-content .am-action-sheet-body .am-action-sheet-button-list .am-action-sheet-button-list-item.am-action-sheet-destructive-button {
-  color: #ff3b2f !important;
+  color: #ff3b2f;
+}
+.am-action-sheet .am-action-sheet-content .am-action-sheet-body .am-action-sheet-button-list .am-action-sheet-button-list-item.am-action-sheet-cancel-button {
+  margin-top: 0.12077295rem;
 }
 .am-action-sheet .am-action-sheet-content .am-action-sheet-body .am-action-sheet-button-list .am-action-sheet-button-list-item.am-action-sheet-cancel-button .am-action-sheet-cancel-button-mask {
   border-top: none;
-  height: 0.36231884rem;
+  height: 0.12077295rem;
+  top: -0.12077295rem;
 }
 .am-action-sheet .am-action-sheet-content .am-action-sheet-body .am-action-sheet-button-list .am-action-sheet-button-list-item.am-action-sheet-cancel-button .am-action-sheet-cancel-button-mask:after {
   display: none;
@@ -90,22 +94,22 @@
 .am-action-sheet.hasIcons .am-action-sheet-content .am-action-sheet-body .am-action-sheet-message {
   color: #777;
   text-align: left;
-  font-size: 1.30434783rem;
+  font-size: 0.43478261rem;
 }
 .am-action-sheet.hasIcons .am-action-sheet-content .am-action-sheet-body .am-action-sheet-button-list .am-action-sheet-button-list-item .item {
-  height: 3.98550725rem;
-  line-height: 3.98550725rem;
+  height: 1.32850242rem;
+  line-height: 1.32850242rem;
   padding-left: 15px;
   text-align: left;
-  font-size: 1.30434783rem;
+  font-size: 0.43478261rem;
 }
 .am-action-sheet.hasIcons .am-action-sheet-content .am-action-sheet-body .am-action-sheet-button-list .am-action-sheet-button-list-item .item .item-icon {
   margin-right: 10px;
   font-size: 20px;
 }
 .am-action-sheet.hasIcons .am-action-sheet-content .am-action-sheet-body .am-action-sheet-button-list .am-action-sheet-button-list-item .item .item-icon i {
-  vertical-align: -0.16908213rem;
-  font-size: 1.73913043rem;
+  vertical-align: -0.05636071rem;
+  font-size: 0.57971014rem;
 }
 .am-action-sheet-wrap {
   display: flex;

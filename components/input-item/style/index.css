@@ -1,8 +1,5 @@
-.jw-item {
-  padding: 0.72463768rem 0;
-}
 .jw-item .am-input-label {
-  font-size: 1.15942029rem;
+  font-size: 0.38647343rem;
   color: #333;
   font-weight: bold;
   height: 28px;
@@ -10,15 +7,15 @@
 }
 .jw-item .am-input-control {
   position: relative;
-  height: 2.53623188rem;
-  line-height: 2.53623188rem;
+  height: 0.84541063rem;
+  line-height: 0.84541063rem;
   overflow: hidden;
 }
 .jw-item .am-input-control input {
   display: block;
   width: 100%;
   border: none;
-  font-size: 1.01449275rem;
+  font-size: 16px;
   height: 21px;
   line-height: 20px;
   padding: 7px 0;
@@ -29,7 +26,7 @@
   content: '';
   width: 200%;
   position: absolute;
-  top: 2.46376812rem;
+  top: 0.82125604rem;
   border-bottom: 1px solid #dddddd;
   -webkit-transform-origin: 0 0;
   -moz-transform-origin: 0 0;
@@ -46,28 +43,28 @@
 }
 .jw-item .am-input-control input::-webkit-input-placeholder {
   border: none;
-  font-size: 1.15942029rem;
+  font-size: 0.38647343rem;
   color: #999;
   font-weight: 400;
 }
 .jw-item .am-input-control input:-moz-placeholder {
   border: none;
-  font-size: 1.15942029rem;
+  font-size: 0.38647343rem;
   color: #999;
   font-weight: 400;
 }
 .jw-item .am-input-control input::-moz-placeholder {
   border: none;
-  font-size: 1.15942029rem;
+  font-size: 0.38647343rem;
   color: #999;
   font-weight: 400;
 }
 .jw-statcked-item.am-input-item {
-  padding: 0.72463768rem 0;
+  padding: 0.24154589rem 0;
   margin-top: 5px;
   position: relative;
   display: flex;
-  min-height: 2.53623188rem;
+  min-height: 0.84541063rem;
   background-color: #ffffff;
   vertical-align: middle;
   -webkit-box-align: center;
@@ -76,28 +73,28 @@
 }
 .jw-statcked-item.am-input-item .am-input-label {
   float: left;
-  margin-right: 0.72463768rem;
-  line-height: 2.53623188rem;
-  height: 2.53623188rem;
+  margin-right: 0.24154589rem;
+  line-height: 0.84541063rem;
+  height: 0.84541063rem;
   vertical-align: middle;
   color: #333;
   font-weight: bold;
-  font-size: 1.15942029rem;
+  font-size: 0.38647343rem;
 }
 .jw-statcked-item.am-input-item .am-input-label i {
   width: 16px;
   height: 16px;
-  font-size: 1.15942029rem;
-  line-height: 2.22222222rem;
+  font-size: 0.38647343rem;
+  line-height: 0.74074074rem;
   display: table-cell;
 }
 .jw-statcked-item.am-input-item .am-input-label i:before {
-  vertical-align: -0.2173913rem;
+  vertical-align: -0.07246377rem;
 }
 .jw-statcked-item.am-input-item .am-input-control {
   position: relative;
-  height: 2.53623188rem;
-  line-height: 2.53623188rem;
+  height: 0.84541063rem;
+  line-height: 0.84541063rem;
   vertical-align: middle;
   width: 100%;
   -webkit-box-flex: 1;
@@ -108,37 +105,37 @@
   display: block;
   width: 100%;
   border: none;
-  font-size: 1.01449275rem;
-  height: 1.37681159rem;
-  padding: 0.62801932rem 0;
+  font-size: 16px;
+  height: 0.4589372rem;
+  padding: 0.20933977rem 0;
   box-sizing: content-box;
-  line-height: 1.37681159rem;
+  line-height: 0.4589372rem;
 }
 .jw-statcked-item.am-input-item .am-input-control input::-webkit-input-placeholder {
   border: none;
   color: #999;
-  font-size: 1.15942029rem;
-  line-height: 1.37681159rem;
-  height: 1.37681159rem;
+  font-size: 0.38647343rem;
+  line-height: 0.4589372rem;
+  height: 0.4589372rem;
 }
 .jw-statcked-item.am-input-item .am-input-control input:-moz-placeholder {
   border: none;
   color: #999;
-  font-size: 1.15942029rem;
-  line-height: 1.37681159rem;
-  height: 1.37681159rem;
+  font-size: 0.38647343rem;
+  line-height: 0.4589372rem;
+  height: 0.4589372rem;
 }
 .jw-statcked-item.am-input-item .am-input-control input::-moz-placeholder {
   border: none;
   color: #999;
-  font-size: 1.15942029rem;
+  font-size: 0.38647343rem;
 }
 .jw-statcked-item.am-input-item:after {
   display: block;
   content: '';
   width: 200%;
   position: absolute;
-  top: 3.26086957rem;
+  top: 1.08695652rem;
   left: 0;
   border-bottom: 1px solid #dddddd;
   -webkit-transform-origin: 0 0;
@@ -156,7 +153,7 @@
 }
 .am-list.jw-list .am-list-header {
   font-size: 16px;
-  padding: 0px 1.44927536rem 20px;
+  padding: 0px 0.48309179rem 20px;
 }
 .am-list.jw-list .am-list-body:after {
   display: none;
@@ -165,21 +162,20 @@
   border: 0;
   padding: 0 ;
   background: #fff;
-  padding: 0 0.72463768rem;
+  padding: 0 0.24154589rem;
 }
 .am-list.jw-list .am-list-body .am-list-item.am-input-item {
-  padding: 0.72463768rem 0;
   height: initial;
-  line-height: 2.53623188rem;
-  min-height: 2.53623188rem;
+  line-height: 0.89371981rem;
+  min-height: 0.89371981rem;
+  padding-right: 0;
 }
 .am-list.jw-list .am-list-body .am-list-item.am-input-item .am-input-label {
-  font-size: 1.15942029rem;
+  font-size: 0.38647343rem;
   color: #333;
   font-weight: bold;
   width: initial;
-  height: 2.53623188rem;
-  line-height: 2.53623188rem;
+  height: 0.86151369rem;
 }
 .am-list.jw-list .am-list-body .am-list-item.am-input-item .am-input-label.am-input-label-4 {
   float: left;
@@ -188,18 +184,18 @@
 }
 .am-list.jw-list .am-list-body .am-list-item.am-input-item .am-input-control {
   position: relative;
-  height: 2.53623188rem;
-  line-height: 2.53623188rem;
+  height: 0.84541063rem;
+  line-height: 0.84541063rem;
   overflow: hidden;
 }
 .am-list.jw-list .am-list-body .am-list-item.am-input-item .am-input-control input {
   display: block;
   width: 100%;
   border: none;
-  font-size: 1.01449275rem;
-  height: 1.44927536rem;
-  line-height: 1.44927536rem;
-  padding: 0.55555556rem 0 0.55555556rem;
+  font-size: 16px;
+  height: 0.48309179rem;
+  line-height: 0.48309179rem;
+  padding: 0.18518519rem 0 0.18518519rem;
   box-sizing: content-box;
 }
 .am-list.jw-list .am-list-body .am-list-item.am-input-item .am-input-control:after {
@@ -207,7 +203,7 @@
   content: '';
   width: 200%;
   position: absolute;
-  top: 2.41545894rem;
+  top: 0.80515298rem;
   border-bottom: 1px solid #dddddd;
   -webkit-transform-origin: 0 0;
   -moz-transform-origin: 0 0;
@@ -224,19 +220,19 @@
 }
 .am-list.jw-list .am-list-body .am-list-item.am-input-item .am-input-control input::-webkit-input-placeholder {
   border: none;
-  font-size: 1.15942029rem;
+  font-size: 0.38647343rem;
   color: #999;
   font-weight: 400;
-  height: 1.44927536rem;
-  line-height: 1.44927536rem;
+  height: 0.48309179rem;
+  line-height: 0.48309179rem;
 }
 .am-list.jw-list .am-list-body .am-list-item.am-input-item .am-input-control input:-moz-placeholder {
   border: none;
-  font-size: 1.15942029rem;
+  font-size: 0.38647343rem;
   color: #999;
   font-weight: 400;
-  height: 1.44927536rem;
-  line-height: 1.44927536rem;
+  height: 0.48309179rem;
+  line-height: 0.48309179rem;
 }
 .am-list.jw-list .am-list-body .am-list-item.am-input-item .am-input-clear {
   visibility: hidden;
@@ -261,9 +257,9 @@
 .am-list.jw-list .am-list-body .am-list-item.am-input-item:after {
   content: '';
   width: 200%;
-  display: none!important;
+  display: none;
   position: absolute;
-  top: 2.85024155rem;
+  top: 0.95008052rem;
   left: initial;
   border-bottom: 1px solid #dddddd;
   -webkit-transform-origin: 0 0;
@@ -284,7 +280,7 @@
   content: '';
   width: 200%;
   position: absolute;
-  top: 2.43961353rem;
+  top: 0.81320451rem;
   border-bottom: 1px solid #dddddd;
   -webkit-transform-origin: 0 0;
   -moz-transform-origin: 0 0;
@@ -304,7 +300,7 @@
 }
 @media screen and (max-width: 350px) {
   .am-list.jw-list .am-list-body .inline-Icon.am-list-item:after {
-    top: 4.15458937rem;
+    top: 1.38486312rem;
   }
   .am-list.jw-list .am-list-body .hasIcon.am-list-item .am-list-thumb img {
     vertical-align: 4px;
@@ -356,7 +352,7 @@
     vertical-align: -0.05rem;
   }
   .am-list.jw-list .jw-statcked-item.am-input-item .am-input-control input {
-    padding: 0.55555556rem 0;
+    padding: 0.18518519rem 0;
   }
   .am-list.jw-list .jw-item .am-input-control:after {
     top: 2.4537681159rem;
@@ -368,7 +364,7 @@
     vertical-align: 3px;
   }
   .am-list.jw-list .am-list-body .inline-Icon.am-list-item:after {
-    top: 4.17874396rem;
+    top: 1.39291465rem;
   }
 }
 @media screen and (min-width: 366px) and (max-width: 380px) {

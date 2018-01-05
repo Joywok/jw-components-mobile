@@ -1,11 +1,11 @@
 .am-card.am-card-full {
-  border: none!important;
-  padding: 0!important;
+  border: none;
+  padding: 0;
 }
 .am-card.am-card-full .am-card-body {
-  padding: 0!important;
-  border: none!important;
-  font-size: 1.01449275rem;
+  padding: 0;
+  border: none;
+  font-size: 0.33816425rem;
 }
 .am-card.am-card-full .am-card-body .cardwrap.card1,
 .am-card.am-card-full .am-card-body .cardwrap.card2,
@@ -14,7 +14,7 @@
   background: #0ab771;
   position: relative;
   overflow: hidden;
-  padding: 1.44927536rem 8%;
+  padding: 0.48309179rem 8%;
   margin: 0 auto;
   color: #fff;
 }
@@ -22,7 +22,7 @@
 .am-card.am-card-full .am-card-body .cardwrap.card2 .avatar,
 .am-card.am-card-full .am-card-body .cardwrap.card3 .avatar {
   float: left;
-  margin-right: 1.08695652rem;
+  margin-right: 0.36231884rem;
   overflow: hidden;
 }
 .am-card.am-card-full .am-card-body .cardwrap.card1 .avatar img,
@@ -34,16 +34,16 @@
 .am-card.am-card-full .am-card-body .cardwrap.card1 .avatar.avatar-1,
 .am-card.am-card-full .am-card-body .cardwrap.card2 .avatar.avatar-1,
 .am-card.am-card-full .am-card-body .cardwrap.card3 .avatar.avatar-1 {
-  width: 3.98550725rem;
-  height: 3.98550725rem;
-  border-radius: 3.98550725rem;
+  width: 1.32850242rem;
+  height: 1.32850242rem;
+  border-radius: 1.32850242rem;
 }
 .am-card.am-card-full .am-card-body .cardwrap.card1 .avatar.avatar-2,
 .am-card.am-card-full .am-card-body .cardwrap.card2 .avatar.avatar-2,
 .am-card.am-card-full .am-card-body .cardwrap.card3 .avatar.avatar-2 {
-  width: 4.7826087rem;
-  height: 4.7826087rem;
-  border-radius: 4.7826087rem;
+  width: 1.5942029rem;
+  height: 1.5942029rem;
+  border-radius: 1.5942029rem;
 }
 .am-card.am-card-full .am-card-body .cardwrap.card1 .info,
 .am-card.am-card-full .am-card-body .cardwrap.card2 .info,
@@ -56,16 +56,16 @@
 .am-card.am-card-full .am-card-body .cardwrap.card1 .info .info-2,
 .am-card.am-card-full .am-card-body .cardwrap.card2 .info .info-2,
 .am-card.am-card-full .am-card-body .cardwrap.card3 .info .info-2 {
-  margin-top: 0.57971014rem;
+  margin-top: 0.19323671rem;
 }
 .am-card.am-card-full .am-card-body .cardwrap.card1 .cont,
 .am-card.am-card-full .am-card-body .cardwrap.card2 .cont,
 .am-card.am-card-full .am-card-body .cardwrap.card3 .cont {
   text-align: left;
-  margin-top: 1.08695652rem;
+  margin-top: 0.36231884rem;
 }
 .am-card.am-card-full .am-card-body .cardwrap.card2 {
-  background: #fff !important;
+  background: #fff;
   color: #333;
 }
 .am-card.am-card-full .am-card-body .cardwrap.card3 {
@@ -77,6 +77,6 @@
   margin: 0 auto;
 }
 .am-card.am-card-full .am-card-body .cardwrap.card3 .card-name {
-  margin-top: 0.86956522rem;
+  margin-top: 0.28985507rem;
   text-align: center;
 }

@@ -1,20 +1,20 @@
 .am-list.jw-list .am-list-body .am-checkbox-item.am-list-item {
-  min-height: 4.34782609rem;
+  min-height: 1.08695652rem;
 }
 .am-list.jw-list .am-list-body .am-checkbox-item.am-list-item .am-list-thumb .am-checkbox-wrapper {
   font-color: #b0b0b0;
 }
 .am-list.jw-list .am-list-body .am-checkbox-item.am-list-item .am-list-thumb .am-checkbox-wrapper .am-checkbox {
-  height: 4.34782609rem;
+  height: 1.08695652rem;
 }
 .am-list.jw-list .am-list-body .am-checkbox-item.am-list-item .am-list-thumb .am-checkbox-wrapper .am-checkbox .am-checkbox-inner {
   right: 0;
   left: initial;
-  margin-right: 0.72463768rem;
-  top: 1.44927536rem;
+  margin-right: 0.24154589rem;
+  top: 0.38647343rem;
   border: 1px solid #b0b0b0;
-  width: 21px;
-  height: 21px;
+  width: 0.50724638rem;
+  height: 0.50724638rem;
 }
 .am-list.jw-list .am-list-body .am-checkbox-item.am-list-item .am-list-thumb .am-checkbox-wrapper .am-checkbox.am-checkbox-checked .am-checkbox-inner {
   border: 1px solid #03a9f4;
@@ -49,12 +49,12 @@
 .am-list.jw-list .am-list-body .am-checkbox-item.am-list-item .am-list-line .am-list-content {
   color: #b0b0b0;
   font-weight: inherit;
-  margin-left: 0.72463768rem;
+  margin-left: 0.24154589rem;
 }
 .am-list.jw-list .am-list-body .am-checkbox-item.am-list-item .am-list-line .am-list-content img {
-  width: 3.62318841rem;
-  height: 3.62318841rem;
-  margin-right: 1.44927536rem;
+  width: 1.20772947rem;
+  height: 1.20772947rem;
+  margin-right: 0.48309179rem;
 }
 .am-list.jw-list .am-list-body .am-checkbox-item.am-list-item .am-list-line:after {
   display: block;
@@ -82,12 +82,12 @@
   display: none;
 }
 .am-list .am-list-item.am-checkbox-item .am-list-thumb {
-  width: 0!important;
+  width: 0;
   margin: 0;
 }
 @media screen and (max-width: 350px) {
   .am-list.jw-list .am-list-body .inline-Icon.am-list-item:after {
-    top: 4.15458937rem;
+    top: 1.38486312rem;
   }
   .am-list.jw-list .am-list-body .hasIcon.am-list-item .am-list-thumb img {
     vertical-align: 4px;
@@ -139,7 +139,7 @@
     vertical-align: -0.05rem;
   }
   .am-list.jw-list .jw-statcked-item.am-input-item .am-input-control input {
-    padding: 0.55555556rem 0;
+    padding: 0.18518519rem 0;
   }
   .am-list.jw-list .jw-item .am-input-control:after {
     top: 2.4537681159rem;
@@ -151,7 +151,7 @@
     vertical-align: 3px;
   }
   .am-list.jw-list .am-list-body .inline-Icon.am-list-item:after {
-    top: 4.17874396rem;
+    top: 1.39291465rem;
   }
 }
 @media screen and (min-width: 366px) and (max-width: 380px) {

@@ -1,46 +1,53 @@
-.am-button {
+.buttonItem {
+  margin-bottom: 0.36231884rem;
+}
+.buttonItem .btn.am-button {
   color: #777;
-  height: 3.04347826rem !important;
-  line-height: 3.04347826rem !important;
+  height: 1.01449275rem;
+  line-height: 1.01449275rem;
   cursor: pointer;
   border-radius: 5px;
-  font-size: 1.15942029rem !important;
-  border: none!important;
+  font-size: 0.38647343rem;
+  border: none;
 }
 .am-button {
-  height: 3.04347826rem !important;
-  line-height: 3.04347826rem !important;
-  font-size: 1.01449275rem !important;
-  border-radius: 5px!important;
+  height: 1.01449275rem;
+  line-height: 1.01449275rem;
+  font-size: 0.33816425rem;
+  border-radius: 5px;
   width: 100%;
 }
-.am-button.am-button-active {
-  background: #f0f0f0;
+.btn.am-button.am-button-active {
+  background: #32a62e;
   borde-color: #32a62e;
   color: #fff;
 }
-.am-button.am-button-primary {
-  color: #fff;
-  background: #f1f1f1;
+.btn.am-button.am-button-primary {
+  background: #157efb;
 }
-.am-button.am-button-primary.am-button-active {
+.btn.am-button.am-button-primary {
+  color: #fff;
+  background: #157efb;
+}
+.btn.am-button.am-button-primary.am-button-active {
   background: #046dea;
 }
-.am-button-warning.am-button.am-button-active {
+.btn.am-button-warning.am-button.am-button-active {
   background: #df322b;
 }
-.am-button-warning.am-button {
-  color: -warning-color;
+.btn.am-button-warning.am-button {
+  color: #fff;
   background: #eb413d;
+  border: none;
 }
-.am-button.am-button-dsabled {
+.btn.am-button.am-button-dsabled {
   background: #b0b0b0;
 }
-.am-button-ghost.am-button {
+.btn.am-button-ghost.am-button {
   color: #fff;
   background: #0ab771;
   border-color: #0ab771;
 }
-.am-button-ghost.am-button.am-button-active {
+.btn.am-button-ghost.am-button.am-button-active {
   background: #019a5c;
 }

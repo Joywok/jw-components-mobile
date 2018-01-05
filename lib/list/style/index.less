@@ -1,11 +1,17 @@
 
 @import  "../../style/themes/default";
 
+*{
+  margin:0;
+  padding:0;
+  line-height:initial;
+}
 .am-list.jw-list{
     .am-list-body {
-        padding:0 15px;
+        .am-list-item-active.am-list-item{
+        }
         .am-list-item {
-            padding-left:0;
+            padding:0 (30rem/@fontSize);
             min-height: @list-item-min-height;
             .am-list-line-multiple {
                 padding: 0;
@@ -61,6 +67,7 @@
                 img {
                     width: @list-left-icon-width;
                     height: @list-left-icon-height;
+                    vertical-align:unset;
                 }
             }
         }

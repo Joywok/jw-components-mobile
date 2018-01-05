@@ -60,6 +60,7 @@
 }
 .am-search.jw-search .am-search-input .am-search-synthetic-ph-placeholder {
   color: #bbb;
+  font-size: 14px;
 }
 .am-search.jw-search .am-search-input input[type="search"] {
   z-index: 2;
@@ -94,12 +95,12 @@
   height: 16px;
   border-radius: 50%;
   right: 6px;
+  padding: 0px;
   background-color: #ccc;
-  background-size: 16px auto;
   background-position: center;
   background-repeat: no-repeat;
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2028'%3E%3Ccircle%20cx%3D'14'%20cy%3D'14'%20r%3D'14'%20fill%3D'%23ccc'%2F%3E%3Cline%20stroke%3D'%23ffffff'%20stroke-width%3D'2'%20stroke-miterlimit%3D'10'%20x1%3D'8'%20y1%3D'8'%20x2%3D'20'%20y2%3D'20'%2F%3E%3Cline%20fill%3D'none'%20stroke%3D'%23ffffff'%20stroke-width%3D'2'%20stroke-miterlimit%3D'10'%20x1%3D'20'%20y1%3D'8'%20x2%3D'8'%20y2%3D'20'%2F%3E%3C%2Fsvg%3E");
-  background-size: 14px auto;
+  background-size: 10px auto;
   -webkit-transition: all .3s;
   transition: all .3s;
 }
@@ -107,6 +108,8 @@
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2028'%3E%3Ccircle%20cx%3D'14'%20cy%3D'14'%20r%3D'14'%20fill%3D'%23ccc'%2F%3E%3Cline%20stroke%3D'%23ffffff'%20stroke-width%3D'2'%20stroke-miterlimit%3D'10'%20x1%3D'8'%20y1%3D'8'%20x2%3D'20'%20y2%3D'20'%2F%3E%3Cline%20fill%3D'none'%20stroke%3D'%23ffffff'%20stroke-width%3D'2'%20stroke-miterlimit%3D'10'%20x1%3D'20'%20y1%3D'8'%20x2%3D'8'%20y2%3D'20'%2F%3E%3C%2Fsvg%3E");
 }
 .am-search.jw-search .am-search-input .am-search-clear-show {
+  width: 16px;
+  height: 16px;
   display: block;
 }
 .am-search.jw-search .am-search-cancel {
@@ -117,10 +120,10 @@
   opacity: 0;
   height: 30px;
   line-height: 30px;
-  font-size: 1.15942029rem;
+  font-size: 0.38647343rem;
   color: #108ee9;
   text-align: right;
-  margin-right: -45px !important;
+  margin-right: -45px;
 }
 .am-search.jw-search .am-search-cancel.am-search-cancel-anim {
   -webkit-transition: margin-right 0.3s, opacity 0.3s;
@@ -132,7 +135,7 @@
   opacity: 1;
 }
 .am-search.jw-search.am-search-start .am-search-cancel.am-search-cancel-anim {
-  margin-right: 10px!important;
+  margin-right: 10px;
 }
 .am-search.jw-search.am-search-start .am-search-input input[type="search"] {
   opacity: 1;

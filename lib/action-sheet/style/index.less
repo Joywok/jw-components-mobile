@@ -47,13 +47,15 @@
                 }
 
                 .am-action-sheet-button-list-item.am-action-sheet-destructive-button {
-                    color: @actionsheet-destructive-color !important;
+                    color: @actionsheet-destructive-color ;
 
                 }
                 .am-action-sheet-button-list-item.am-action-sheet-cancel-button{
+                    margin-top:(15rem/@fontSize);
                     .am-action-sheet-cancel-button-mask{
                       border-top:none;
                       height:(15rem/@fontSize);
+                      top:-(15rem/@fontSize);
                     }
                     .am-action-sheet-cancel-button-mask:after{
                         display:none;

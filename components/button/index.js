@@ -1,4 +1,7 @@
 import Button from "antd-mobile/lib/button/index";
-import 'antd-mobile/lib/button/style/index';
-
-export default Button;
+import React from 'react';
+import ReactDOM from 'react-dom';
+const JwButton= (props) => (
+    <Button className="btn" {...props} />
+);
+export default JwButton;

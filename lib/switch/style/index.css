@@ -11,10 +11,10 @@
   overflow: visible;
 }
 .am-list .am-list-body .am-list-item .am-list-line .am-list-extra .am-switch.am-switch-android {
-  margin-right: 0.72463768rem;
+  margin-right: 0.24154589rem;
 }
 .am-list .am-list-body .am-list-item .am-list-line .am-list-extra .am-switch.am-switch-android input[type="checkbox"]:checked + .checkbox:after {
-  left: 25px !important;
+  left: 25px ;
   top: -2px;
   box-shadow: none;
   -webkit-transform: translateX(0px);
@@ -24,7 +24,7 @@
   width: 52px;
   height: 25px;
   overflow: visible;
-  margin-right: 0.72463768rem;
+  margin-right: 0.24154589rem;
 }
 .am-list .am-list-body .am-list-item .am-list-line .am-list-extra .am-switch .checkbox {
   width: 52px;
@@ -40,7 +40,7 @@
   border-radius: 50%;
   z-index: 6;
   right: initial;
-  left: -2px !important;
+  left: -2px;
   top: -3px;
   box-sizing: border-box;
   border: 1px solid #e7e7e7;
@@ -51,7 +51,7 @@
   background: #32a62e;
 }
 .am-list .am-list-body .am-list-item .am-list-line .am-list-extra .am-switch input[type="checkbox"]:checked + .checkbox:after {
-  left: -16px !important;
+  left: -16px;
   top: -2px;
   box-shadow: none;
 }
@@ -79,7 +79,7 @@
   box-sizing: border-box;
 }
 .am-list .am-list-body .switch.am-list-item .am-list-line {
-  padding: 0 0.72463768rem;
+  padding: 0 0.24154589rem;
 }
 .am-switch .checkbox {
   background: #fff;
@@ -100,7 +100,7 @@
 }
 @media screen and (max-width: 350px) {
   .am-list.jw-list .am-list-body .inline-Icon.am-list-item:after {
-    top: 4.15458937rem;
+    top: 1.38486312rem;
   }
   .am-list.jw-list .am-list-body .hasIcon.am-list-item .am-list-thumb img {
     vertical-align: 4px;
@@ -152,7 +152,7 @@
     vertical-align: -0.05rem;
   }
   .am-list.jw-list .jw-statcked-item.am-input-item .am-input-control input {
-    padding: 0.55555556rem 0;
+    padding: 0.18518519rem 0;
   }
   .am-list.jw-list .jw-item .am-input-control:after {
     top: 2.4537681159rem;
@@ -164,7 +164,7 @@
     vertical-align: 3px;
   }
   .am-list.jw-list .am-list-body .inline-Icon.am-list-item:after {
-    top: 4.17874396rem;
+    top: 1.39291465rem;
   }
 }
 @media screen and (min-width: 366px) and (max-width: 380px) {

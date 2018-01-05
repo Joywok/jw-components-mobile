@@ -1,48 +1,48 @@
 .am-modal-wrap .am-modal.am-modal-transparent {
-  width: 75%!important;
+  width: 75%;
 }
 .am-modal-wrap .am-modal.am-modal-transparent .am-modal-content {
-  border-radius: 0.72463768rem;
+  border-radius: 0.24154589rem;
 }
 .am-modal-wrap .am-modal.am-modal-android .am-modal-content .am-modal-header {
   margin-bottom: 20px;
   padding: 0;
 }
 .am-modal-wrap .am-modal.am-modal-android .am-modal-content .am-modal-header .am-modal-title {
-  font-size: 1.15942029rem;
+  font-size: 0.38647343rem;
   line-height: 1;
   color: #333;
   text-align: center;
 }
 .am-modal-wrap .am-modal.am-modal-android .am-modal-content .am-modal-header .am-modal-title img {
   border-style: none;
-  width: 5.07246377rem;
-  height: 5.07246377rem;
-  border-radius: 5.07246377rem;
+  width: 1.69082126rem;
+  height: 1.69082126rem;
+  border-radius: 1.69082126rem;
 }
 .am-modal-wrap .am-modal.am-modal-android .am-modal-content .am-modal-header .am-modal-title .title {
-  font-size: 1.15942029rem;
+  font-size: 0.38647343rem;
   color: #333;
 }
 .am-modal-wrap .am-modal.am-modal-android .am-modal-content .am-modal-body {
   color: #777;
-  font-size: 0.94202899rem;
+  font-size: 0.31400966rem;
   text-align: center;
 }
 .am-modal-wrap .am-modal.am-modal-android .am-modal-content .am-modal-body .content {
-  line-height: 1.44927536rem;
-  font-size: 0.94202899rem;
+  line-height: 0.48309179rem;
+  font-size: 0.31400966rem;
 }
 .am-modal-wrap .am-modal.am-modal-android .am-modal-content .am-modal-body img {
   border-style: none;
-  width: 5.07246377rem;
-  height: 5.07246377rem;
-  border-radius: 5.07246377rem;
+  width: 1.69082126rem;
+  height: 1.69082126rem;
+  border-radius: 1.69082126rem;
 }
 .am-modal-wrap .am-modal.am-modal-android .am-modal-content .am-modal-body .title {
-  font-size: 1.15942029rem;
+  font-size: 0.38647343rem;
   color: #333;
-  margin: 0.72463768rem 0;
+  margin: 0.24154589rem 0;
 }
 .am-modal-wrap .am-modal.am-modal-android .am-modal-content .am-modal-footer {
   padding-bottom: inherit;
@@ -54,9 +54,9 @@
 }
 .am-modal-wrap .am-modal.am-modal-android .am-modal-content .am-modal-footer .am-modal-button-group-h .am-modal-button {
   color: #777;
-  font-size: 1.15942029rem;
-  height: 3.62318841rem;
-  line-height: 3.62318841rem;
+  font-size: 0.38647343rem;
+  height: 1.20772947rem;
+  line-height: 1.20772947rem;
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -78,9 +78,9 @@
   text-decoration: none;
   outline: none;
   color: #777;
-  font-size: 1.15942029rem;
-  height: 3.62318841rem;
-  line-height: 3.62318841rem;
+  font-size: 0.38647343rem;
+  height: 1.20772947rem;
+  line-height: 1.20772947rem;
   width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -93,13 +93,13 @@
 }
 .am-modal-wrap .am-modal .am-modal-content .am-modal-close {
   cursor: pointer;
-  right: 1.08695652rem;
+  right: 0.36231884rem;
   left: inherit;
   font-size: 0.38rem;
   top: 10px;
 }
 .am-modal-wrap .am-modal .am-modal-content .am-modal-close .am-modal-close-x {
-  background: none!important;
+  background: none;
 }
 .am-modal-wrap .am-modal .am-modal-content .am-modal-close .am-modal-close-x:after {
   content: '\D7';
@@ -112,49 +112,49 @@
   padding: 0;
 }
 .am-modal-wrap .am-modal .am-modal-content .am-modal-header .am-modal-title {
-  font-size: 1.15942029rem;
+  font-size: 0.38647343rem;
   line-height: 1;
   color: #333;
   text-align: center;
 }
 .am-modal-wrap .am-modal .am-modal-content .am-modal-header .am-modal-title img {
   border-style: none;
-  width: 5.07246377rem;
-  height: 5.07246377rem;
-  border-radius: 5.07246377rem;
+  width: 1.69082126rem;
+  height: 1.69082126rem;
+  border-radius: 1.69082126rem;
 }
 .am-modal-wrap .am-modal .am-modal-content .am-modal-header .am-modal-title .title {
-  font-size: 1.15942029rem;
+  font-size: 0.38647343rem;
   color: #333;
 }
 .am-modal-wrap .am-modal .am-modal-content .am-modal-body {
   color: #777;
-  font-size: 1.15942029rem;
+  font-size: 0.38647343rem;
 }
 .am-modal-wrap .am-modal .am-modal-content .am-modal-body .content {
   line-height: 20px;
-  font-size: 1.15942029rem;
+  font-size: 0.38647343rem;
 }
 .am-modal-wrap .am-modal .am-modal-content .am-modal-body img {
   border-style: none;
-  width: 5.07246377rem;
-  height: 5.07246377rem;
-  border-radius: 5.07246377rem;
+  width: 1.69082126rem;
+  height: 1.69082126rem;
+  border-radius: 1.69082126rem;
 }
 .am-modal-wrap .am-modal .am-modal-content .am-modal-body .title {
-  font-size: 1.15942029rem;
+  font-size: 0.38647343rem;
   color: #333;
   margin: 10px 0;
 }
 .am-modal-wrap .am-modal .am-modal-content .am-modal-footer .am-modal-button-group-h .am-modal-button {
   color: #777;
-  font-size: 1.15942029rem;
-  height: 3.62318841rem;
-  line-height: 3.62318841rem;
+  font-size: 0.38647343rem;
+  height: 1.20772947rem;
+  line-height: 1.20772947rem;
 }
 .am-modal-wrap .am-modal .am-modal-content .am-modal-footer .am-modal-button-group-v .am-modal-button {
   color: #777;
-  font-size: 1.15942029rem;
-  height: 3.62318841rem;
-  line-height: 3.62318841rem;
+  font-size: 0.38647343rem;
+  height: 1.20772947rem;
+  line-height: 1.20772947rem;
 }

@@ -1,0 +1,41 @@
+@import  "../../style/themes/default";
+
+//toast 轻提示
+.toast-example{
+        .am-button{
+            height:(135rem/@fontSize);
+            line-height:(135rem/@fontSize);
+            font-size:(42rem/@fontSize);
+        }
+}
+.am-toast-notice {
+    .am-toast-notice-content {
+        .am-toast-text {
+            color: @toast-color;
+            background: @toast-bg;
+            margin-top: 160px;
+            padding: 7px 30px;
+            margin-top: 160px;
+            font-size: 12px;
+        }
+        .am-toast-text.am-toast-text-icon {
+            margin-top: inherit;
+            padding: 20px 35px;
+            .am-icon {
+                width: 44px;
+                height: 36px;
+                background-size: cover;
+                use{
+                    display:none;
+                }
+            }
+            i:before {
+                display: none;
+            }
+            i {
+                width: 44px;
+                height: 36px;
+            }
+        }
+    }
+}

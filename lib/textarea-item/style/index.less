@@ -1,0 +1,19 @@
+@import  "../../style/themes/default";
+.am-list-item.am-textarea-item {
+    padding-left: 15px;
+    padding-right: 15px;
+    .am-textarea-control {
+        min-height: 150px;
+        padding-top: 10px;
+        textarea {
+            font-size: 16px;
+            color: @textarea-color-base;
+            line-height: @textarea-line-height;
+        }
+    }
+    .am-textarea-control textarea::-webkit-input-placeholder {
+        border:none;
+        color: @textarea-color-placeholder;
+        font-size: 16px
+    }
+}

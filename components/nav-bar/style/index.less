@@ -1,0 +1,33 @@
+@import  "../../style/themes/default";
+
+
+.am-navbar.am-navbar-light,.am-navbar.am-navbar-dark {
+    color:@navbar-light-color;
+    height: @navbar-height;
+    .am-navbar-left,
+    .am-navbar-right {
+        font-size: @navbar-default-font-size;
+    }
+    .am-navbar-right {
+        margin-right: @navbar-margin;
+    }
+    .am-navbar-left {
+        margin-left: @navbar-margin;
+        padding-left:0px;
+        .am-navbar-left-icon {
+             display:none;
+            .am-icon {
+                display: none;
+            }
+        }
+    }
+    .am-navbar-title {
+        font-size: @navbar-title-font-size;
+        color: @navbar-color;
+    }
+}
+.am-navbar.am-navbar-dark {
+  .am-navbar-title {
+    color:@navbar-default-color;
+  }
+}
