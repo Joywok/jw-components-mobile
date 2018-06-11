@@ -16,6 +16,7 @@ export {default as Modal } from './lib/modal/index';
 export {default as DatePicker } from './lib/date-picker/index';
 export {default as Card } from './lib/card/index';
 export {default as Carousel } from './lib/carousel/index';
+export {default as Upload } from './lib/upload/index';
 
 
 
