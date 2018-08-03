@@ -25,12 +25,5 @@ export {default as WingBlank } from './WingBlank/index';
 export {default as Toast } from './Toast/index';
 export {default as Badge } from './badge/index';
 export {default as Loading } from './loading/index';
-
-
-
-
-
-
-
-
-
+export {default as Slider } from './slider/index';
+export {default as Stepper } from './stepper/index';
