@@ -19,3 +19,4 @@ export {default as Carousel } from './lib/carousel/index';
 export {default as Upload } from './lib/upload/index';
 export {default as Slider } from './lib/slider/index';
 export {default as Stepper } from './lib/stepper/index';
+export {default as Rate } from './lib/rate/index';
