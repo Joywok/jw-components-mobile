@@ -17,5 +17,6 @@ export {default as DatePicker } from './lib/date-picker/index';
 export {default as Card } from './lib/card/index';
 export {default as Carousel } from './lib/carousel/index';
 export {default as Upload } from './lib/upload/index';
-export {default as JwSlider } from './lib/slider/index';
-export {default as JwStepper } from './lib/stepper/index';
+export {default as Slider } from './lib/slider/index';
+export {default as Stepper } from './lib/stepper/index';
+export {default as Rate } from './lib/rate/index';
