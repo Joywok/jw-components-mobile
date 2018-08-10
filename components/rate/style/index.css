@@ -1,8 +1,12 @@
-.jw-rate-number {
+.jw-rate-w {
+  width: 86%;
+  margin-left: 7%;
+}
+.jw-rate-w .jw-rate-number {
   font-size: 0.24154589rem;
   color: #2571fd;
 }
-.jw-rate-number .ant-rate-star {
+.jw-rate-w .jw-rate-number .ant-rate-star {
   width: 0.53140097rem;
   height: 0.53140097rem;
   border: 1px solid #2571fd;
@@ -10,13 +14,16 @@
   line-height: 0.53140097rem;
   text-align: center;
 }
-.jw-rate-number .ant-rate-star-zero {
+.jw-rate-w .jw-rate-number .ant-rate-star-zero {
   width: 0.53140097rem;
   height: 0.53140097rem;
   border: 1px solid #b0b0b0;
   border-radius: 100%;
 }
-.jw-rate-number .ant-rate-star-zero .ant-rate-star-first,
-.jw-rate-number .ant-rate-star-zero .ant-rate-star-second {
+.jw-rate-w .jw-rate-number .ant-rate-star-zero .ant-rate-star-first,
+.jw-rate-w .jw-rate-number .ant-rate-star-zero .ant-rate-star-second {
   color: #b0b0b0;
+}
+.jw-rate-w .ant-rate {
+  font-size: 0.48309179rem;
 }

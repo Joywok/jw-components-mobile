@@ -1,23 +1,31 @@
 @import  "../../style/themes/default";
 
-.jw-rate-number{
-  font-size: @rate-number-font-size;
-  color: @rate-color-blue;
-  .ant-rate-star{
-    width: @rate-number-width;
-    height: @rate-number-height;
-    border: 1px solid @rate-color-blue;
-    border-radius: 100%;
-    line-height: @rate-number-height;
-    text-align: center;
-  }
-  .ant-rate-star-zero{
-    width: @rate-number-width;
-    height: @rate-number-height;
-    border: 1px solid @stable;
-    border-radius: 100%;
-    .ant-rate-star-first, .ant-rate-star-second{
-      color: @stable;
+.jw-rate-w{
+  width: 86%;
+  margin-left: 7%;
+  // character 为 number 样式
+  .jw-rate-number{
+    font-size: @rate-number-font-size;
+    color: @rate-color-blue;
+    .ant-rate-star{
+      width: @rate-number-width;
+      height: @rate-number-height;
+      border: 1px solid @rate-color-blue;
+      border-radius: 100%;
+      line-height: @rate-number-height;
+      text-align: center;
     }
+    .ant-rate-star-zero{
+      width: @rate-number-width;
+      height: @rate-number-height;
+      border: 1px solid @stable;
+      border-radius: 100%;
+      .ant-rate-star-first, .ant-rate-star-second{
+        color: @stable;
+      }
+    }
+  }
+  .ant-rate{
+    font-size: @rate-font-size;
   }
 }

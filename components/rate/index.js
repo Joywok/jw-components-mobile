@@ -21,7 +21,9 @@ class JwRate extends Component{
   }
   render(){
     return(
-      <Rate className={"jw-rate " + (this.props.character=="number" ? 'jw-rate-number' : '')} ref="jwRate" {...this.props} />
+      <div className="jw-rate-w">
+        <Rate className={"jw-rate " + (this.props.character=="number" ? 'jw-rate-number' : '')} ref="jwRate" {...this.props} />
+      </div>
     )
   }
 }
