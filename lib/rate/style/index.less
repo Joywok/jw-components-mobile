@@ -3,6 +3,13 @@
 .jw-rate-w{
   width: 86%;
   margin-left: 7%;
+  // 图标或文字size
+  .ant-rate{
+    font-size: @rate-font-size;
+    .ant-rate-star:last-child{
+      margin-right: 0;
+    }
+  }
   // character 为 number 样式
   .jw-rate-number{
     font-size: @rate-number-font-size;
@@ -25,7 +32,40 @@
       }
     }
   }
-  .ant-rate{
-    font-size: @rate-font-size;
+  // 不同数量间距不同 styles
+  .jw-rate-count-5{
+    .ant-rate-star{
+      margin-right: @rate-count-5;
+    }
+  }
+  .jw-rate-count-6{
+    .ant-rate-star{
+      margin-right: @rate-count-6;
+    }
+  }
+  .jw-rate-count-7{
+    .ant-rate-star{
+      margin-right: @rate-count-7;
+    }
+  }
+  .jw-rate-count-8{
+    .ant-rate-star{
+      margin-right: @rate-count-8;
+    }
+  }
+  .jw-rate-count-9{
+    .ant-rate-star{
+      margin-right: @rate-count-9;
+    }
+  }
+  .jw-rate-count-10{
+    .ant-rate-star{
+      margin-right: @rate-count-10;
+    }
+  }
+  .jw-rate-count-11{
+    .ant-rate-star{
+      margin-right: @rate-count-11;
+    }
   }
 }

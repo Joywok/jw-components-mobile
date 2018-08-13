@@ -2,6 +2,12 @@
   width: 86%;
   margin-left: 7%;
 }
+.jw-rate-w .ant-rate {
+  font-size: 0.48309179rem;
+}
+.jw-rate-w .ant-rate .ant-rate-star:last-child {
+  margin-right: 0;
+}
 .jw-rate-w .jw-rate-number {
   font-size: 0.24154589rem;
   color: #2571fd;
@@ -24,6 +30,24 @@
 .jw-rate-w .jw-rate-number .ant-rate-star-zero .ant-rate-star-second {
   color: #b0b0b0;
 }
-.jw-rate-w .ant-rate {
-  font-size: 0.48309179rem;
+.jw-rate-w .jw-rate-count-5 .ant-rate-star {
+  margin-right: 1.44927536rem;
+}
+.jw-rate-w .jw-rate-count-6 .ant-rate-star {
+  margin-right: 1.04669887rem;
+}
+.jw-rate-w .jw-rate-count-7 .ant-rate-star {
+  margin-right: 0.80515298rem;
+}
+.jw-rate-w .jw-rate-count-8 .ant-rate-star {
+  margin-right: 0.60386473rem;
+}
+.jw-rate-w .jw-rate-count-9 .ant-rate-star {
+  margin-right: 0.45088567rem;
+}
+.jw-rate-w .jw-rate-count-10 .ant-rate-star {
+  margin-right: 0.34621578rem;
+}
+.jw-rate-w .jw-rate-count-11 .ant-rate-star {
+  margin-right: 0.26570048rem;
 }
