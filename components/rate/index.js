@@ -29,7 +29,7 @@ class JwRate extends Component{
         <Rate
           className={"jw-rate " + (this.props.character=="number" ? 'jw-rate-number ' : '') + (this.addClassName())}
           ref="jwRate"
-          count={ this.props.character=="number" ? this.props.max - this.props.min + 1 : this.props.count }
+          count={ this.props.max - this.props.min + 1 }
           {...this.props}
         />
       </div>
