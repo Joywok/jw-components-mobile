@@ -21,7 +21,7 @@ class JwRate extends Component{
     // character 为 number 时，count 值
     let jw_rate_count = this.props.max - this.props.min + 1;
     let count = jw_rate_count;
-    let countClass = 'jw-rate-count-'+(count > 5 ? count : 5);
+    let countClass = 'jw-rate-count-'+count;
     return countClass;
   }
   render(){
@@ -32,7 +32,7 @@ class JwRate extends Component{
         <Rate
           className={"jw-rate " + (this.props.character=="number" ? 'jw-rate-number ' : '') + (this.addClassName())}
           ref="jwRate"
-          count={ this.props.max!=undefined && this.props.min!=undefined ? this.props.max - this.props.min + 1 : 5}
+          count={ this.props.max - this.props.min + 1 }
           {...props}
         />
       </div>
