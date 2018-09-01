@@ -1,4 +1,5 @@
 import Rate from "antd/lib/rate/index";
+import Icon from "antd/lib/icon/index";
 import React , {Component} from 'react';
 import ReactDOM from 'react-dom';
 
@@ -19,18 +20,20 @@ class JwRate extends Component{
   addClassName(){
     // character 为 number 时，count 值
     let jw_rate_count = this.props.max - this.props.min + 1;
-    let count = this.props.character=='number' ? jw_rate_count : this.props.count;
-    let countClass = 'jw-rate-count-'+(count > 5 ? count : 5);
+    let count = jw_rate_count;
+    let countClass = 'jw-rate-count-'+count;
     return countClass;
   }
   render(){
+    let props = {...this.props};
+    props.character = this.props.character=="number" ? this.props.character : <Icon type={ this.props.character } />;
     return(
       <div className="jw-rate-w">
         <Rate
           className={"jw-rate " + (this.props.character=="number" ? 'jw-rate-number ' : '') + (this.addClassName())}
           ref="jwRate"
-          count={ this.props.character=="number" ? this.props.max - this.props.min + 1 : this.props.count }
-          {...this.props}
+          count={ this.props.max - this.props.min + 1 }
+          {...props}
         />
       </div>
     )

@@ -30,6 +30,15 @@
 .jw-rate-w .jw-rate-number .ant-rate-star-zero .ant-rate-star-second {
   color: #b0b0b0;
 }
+.jw-rate-w .jw-rate-count-2 .ant-rate-star {
+  margin-right: 6.84380032rem;
+}
+.jw-rate-w .jw-rate-count-3 .ant-rate-star {
+  margin-right: 3.14009662rem;
+}
+.jw-rate-w .jw-rate-count-4 .ant-rate-star {
+  margin-right: 1.93236715rem;
+}
 .jw-rate-w .jw-rate-count-5 .ant-rate-star {
   margin-right: 1.28824477rem;
 }
