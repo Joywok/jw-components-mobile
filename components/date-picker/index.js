@@ -69,7 +69,7 @@ class JwDatePicker extends Component{
 				self.setState({
 					value: value
 				});
-				if( self.datePickerExtraEl.text() == self.props.extra ){
+				if( self.datePickerExtraEl && self.datePickerExtraEl.text() == self.props.extra ){
 					self.datePickerExtraEl.html( self.state.initDate )
 				}
 				typeof(self.props.onChange) == 'function' ? self.props.onChange(value) : '';
