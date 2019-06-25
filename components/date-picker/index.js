@@ -29,13 +29,21 @@ import ReactDOM from 'react-dom';
 
 class JwDatePicker extends Component{
 	constructor(props) {
-    super(props);
+		super(props);
     this.state = {
-    	value: this.props.value
-    }
+    	value: props.value=='Invalid Date' ? '' : props.value
+		}
   }
 
-  // 初始值为空时，
+	componentWillReceiveProps(nextState){
+		if(nextState.value != this.state.value && nextState.value!='Invalid Date'){
+			this.setState({
+				value: nextState.value
+			})
+		}
+	}
+
+  // 初始值为空时，展示 extra
   componentDidMount(){
     if(!this.props.value){
     	this.datePickerExtraEl = $(ReactDOM.findDOMNode(this.refs.JWDatepicker)).find(this.props.prefixCls ? ('.'+this.props.prefixCls+' -extra'): '.am-list-extra');
@@ -52,8 +60,8 @@ class JwDatePicker extends Component{
   			defaultMinite,
   			newTime,
   			newMinite,
-  			Multiple; 
-  	
+				Multiple; 
+				
   	// 如果设置了步长，就按步长重新设置一个默认值
   	if(this.props.minuteStep && this.props.minuteStep>1){
   		newTime = dpValue ? dpValue : now;
@@ -61,7 +69,7 @@ class JwDatePicker extends Component{
   		Multiple = Math.round(defaultMinite/this.props.minuteStep);
   		newMinite = Multiple*this.props.minuteStep;
   		dpValue = new Date( newTime.getFullYear(), newTime.getMonth(), newTime.getDate(), newTime.getHours(), newMinite );
-  	}
+		}
 		
 		newprops = _.extend(newprops,{
 			value: dpValue,
@@ -69,7 +77,7 @@ class JwDatePicker extends Component{
 				self.setState({
 					value: value
 				});
-				if( self.datePickerExtraEl && self.datePickerExtraEl.text() == self.props.extra ){
+				if(self.datePickerExtraEl && self.datePickerExtraEl.text() == self.props.extra ){
 					self.datePickerExtraEl.html( self.state.initDate )
 				}
 				typeof(self.props.onChange) == 'function' ? self.props.onChange(value) : '';
