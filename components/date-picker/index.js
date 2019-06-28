@@ -36,11 +36,21 @@ class JwDatePicker extends Component{
   }
 
 	componentWillReceiveProps(nextState){
-		if(nextState.value != this.state.value && nextState.value!='Invalid Date'){
+		let self = this;
+		// 如果值为空 就更新state的value值，且将extra文字显示在页面中（解决场景：把值设为空，就显示“请选择”）
+		if(nextState.value==''){
+			this.setState({
+				value: ''
+			},()=>{
+				self.datePickerExtraEl && self.datePickerExtraEl.html(self.props.extra || '');
+			})
+		// 如果值发生变化，并且是有效时间，就更新state的value值（如果是无效的时间，组件会显示 NaN-NaN-NaN ）
+		}else if(nextState.value != this.state.value && nextState.value!='Invalid Date'){
 			this.setState({
 				value: nextState.value
 			})
 		}
+		
 	}
 
   // 初始值为空时，展示 extra
@@ -61,7 +71,7 @@ class JwDatePicker extends Component{
   			newTime,
   			newMinite,
 				Multiple; 
-				
+
   	// 如果设置了步长，就按步长重新设置一个默认值
   	if(this.props.minuteStep && this.props.minuteStep>1){
   		newTime = dpValue ? dpValue : now;
@@ -70,7 +80,7 @@ class JwDatePicker extends Component{
   		newMinite = Multiple*this.props.minuteStep;
   		dpValue = new Date( newTime.getFullYear(), newTime.getMonth(), newTime.getDate(), newTime.getHours(), newMinite );
 		}
-		
+
 		newprops = _.extend(newprops,{
 			value: dpValue,
 			onChange: (value) => {
