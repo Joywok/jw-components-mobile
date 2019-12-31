@@ -81,6 +81,8 @@ class JwDatePicker extends Component{
   		dpValue = new Date( newTime.getFullYear(), newTime.getMonth(), newTime.getDate(), newTime.getHours(), newMinite );
 		}
 
+		if(dpValue) dpValue = moment(dpValue);
+
 		newprops = _.extend(newprops,{
 			value: dpValue,
 			onChange: (value) => {
